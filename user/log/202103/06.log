@@ -1,0 +1,60 @@
+[2021-03-06T21:16:31+08:00][sql] CONNECT:[ UseTime:0.001017s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:16:31+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001597s ]
+[2021-03-06T21:16:31+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000470s ]
+[2021-03-06T21:16:50+08:00][sql] CONNECT:[ UseTime:0.000944s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:16:50+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001824s ]
+[2021-03-06T21:16:50+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000536s ]
+[2021-03-06T21:17:09+08:00][sql] CONNECT:[ UseTime:0.000726s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:17:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001560s ]
+[2021-03-06T21:17:09+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000533s ]
+[2021-03-06T21:17:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_user` [ RunTime:0.002440s ]
+[2021-03-06T21:17:09+08:00][sql] SELECT * FROM `yh_user` WHERE  `username` = '12155673' LIMIT 1 [ RunTime:0.000490s ]
+[2021-03-06T21:17:09+08:00][sql] SELECT * FROM `yh_user` WHERE  `email` = '12155673@qq.com' LIMIT 1 [ RunTime:0.000344s ]
+[2021-03-06T21:17:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_verification` [ RunTime:0.002229s ]
+[2021-03-06T21:17:09+08:00][sql] SELECT `id` FROM `yh_verification` WHERE  `email` = '12155673@qq.com' LIMIT 1 [ RunTime:0.000328s ]
+[2021-03-06T21:17:09+08:00][sql] INSERT INTO `yh_verification` SET `code` = 'afoABDHIKMRVWY13' , `email` = '12155673@qq.com' , `intime` = 1615036928 [ RunTime:0.000616s ]
+[2021-03-06T21:17:09+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000474s ]
+[2021-03-06T21:17:09+08:00][sql] CONNECT:[ UseTime:0.000844s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:17:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.002073s ]
+[2021-03-06T21:17:09+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000627s ]
+[2021-03-06T21:24:10+08:00][sql] CONNECT:[ UseTime:0.000827s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:24:10+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001500s ]
+[2021-03-06T21:24:10+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000434s ]
+[2021-03-06T21:40:40+08:00][sql] CONNECT:[ UseTime:0.000743s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:40:40+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001504s ]
+[2021-03-06T21:40:40+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000522s ]
+[2021-03-06T21:41:14+08:00][sql] CONNECT:[ UseTime:0.000662s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:41:14+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001290s ]
+[2021-03-06T21:41:14+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000498s ]
+[2021-03-06T21:41:17+08:00][sql] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:41:17+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001255s ]
+[2021-03-06T21:41:17+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000449s ]
+[2021-03-06T21:41:19+08:00][sql] CONNECT:[ UseTime:0.001005s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:41:19+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001448s ]
+[2021-03-06T21:41:19+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000424s ]
+[2021-03-06T21:41:20+08:00][sql] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:41:20+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001729s ]
+[2021-03-06T21:41:20+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000505s ]
+[2021-03-06T21:41:26+08:00][sql] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:41:26+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001384s ]
+[2021-03-06T21:41:26+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000531s ]
+[2021-03-06T21:41:32+08:00][sql] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:41:32+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001364s ]
+[2021-03-06T21:41:32+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000446s ]
+[2021-03-06T21:44:04+08:00][sql] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:44:04+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001368s ]
+[2021-03-06T21:44:04+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000469s ]
+[2021-03-06T21:44:09+08:00][sql] CONNECT:[ UseTime:0.000687s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:44:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001355s ]
+[2021-03-06T21:44:09+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000424s ]
+[2021-03-06T21:44:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_user` [ RunTime:0.001160s ]
+[2021-03-06T21:44:09+08:00][sql] SELECT * FROM `yh_user` WHERE  `username` = '1'  AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1 [ RunTime:0.000864s ]
+[2021-03-06T21:44:09+08:00][sql] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:44:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001723s ]
+[2021-03-06T21:44:09+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000437s ]
+[2021-03-06T21:44:38+08:00][sql] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T21:44:38+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001179s ]
+[2021-03-06T21:44:38+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000375s ]
+[2021-03-06T23:32:53+08:00][sql] CONNECT:[ UseTime:0.000945s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-06T23:32:53+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001240s ]
+[2021-03-06T23:32:53+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000420s ]

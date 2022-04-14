@@ -1,0 +1,24 @@
+[2020-10-23T21:13:04+08:00][sql] CONNECT:[ UseTime:0.028316s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-23T21:13:04+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.036786s ]
+[2020-10-23T21:13:04+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.006522s ]
+[2020-10-23T21:13:04+08:00][sql] SHOW FULL COLUMNS FROM `yh_admin` [ RunTime:0.000988s ]
+[2020-10-23T21:13:04+08:00][sql] SELECT `id` FROM `yh_admin` WHERE  `username` = '1178350505'  AND `password` = 'fcea920f7412b5da7be0cf42b8c93759' LIMIT 1 [ RunTime:0.001318s ]
+[2020-10-23T21:13:08+08:00][sql] CONNECT:[ UseTime:0.001374s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-23T21:13:08+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001058s ]
+[2020-10-23T21:13:08+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[2020-10-23T21:13:08+08:00][sql] SHOW FULL COLUMNS FROM `yh_admin` [ RunTime:0.000983s ]
+[2020-10-23T21:13:08+08:00][sql] SELECT `id` FROM `yh_admin` WHERE  `username` = '1178350505'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000321s ]
+[2020-10-23T21:13:08+08:00][sql] CONNECT:[ UseTime:0.001292s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-23T21:13:08+08:00][sql] SHOW FULL COLUMNS FROM `yh_admin` [ RunTime:0.000975s ]
+[2020-10-23T21:13:08+08:00][sql] SELECT * FROM `yh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000811s ]
+[2020-10-23T21:13:08+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000795s ]
+[2020-10-23T21:13:08+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[2020-10-23T23:45:59+08:00][error] [10501]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[/www/wwwroot/jifei.ymcx.shop/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-23T23:47:14+08:00][sql] CONNECT:[ UseTime:0.001132s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-23T23:47:14+08:00][error] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jifei.yh_webpz' doesn't exist[/www/wwwroot/jifei.ymcx.shop/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-23T23:49:14+08:00][sql] CONNECT:[ UseTime:0.002538s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-23T23:49:14+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.005453s ]
+[2020-10-23T23:49:14+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001086s ]
+[2020-10-23T23:51:34+08:00][sql] CONNECT:[ UseTime:0.001275s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-23T23:51:34+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.005124s ]
+[2020-10-23T23:51:34+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000932s ]

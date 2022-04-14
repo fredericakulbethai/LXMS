@@ -1,0 +1,5458 @@
+[2020-10-01T13:54:50+08:00][sql] CONNECT:[ UseTime:0.005226s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T13:54:50+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-09-28 21:54:53
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.002668s ]
+[2020-10-01T13:54:50+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000212s ]
+[2020-10-01T13:54:50+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T13:55:54+08:00][error] [0]Class '\think\db\connector\PDO' not found[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\DbManager.php:292]
+[2020-10-01T13:56:06+08:00][sql] CONNECT:[ UseTime:0.001916s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T13:56:06+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-09-28 21:54:53
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000495s ]
+[2020-10-01T13:56:06+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000199s ]
+[2020-10-01T13:56:06+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T13:58:53+08:00][sql] CONNECT:[ UseTime:0.002386s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T13:58:53+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'database' at line 1[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T13:59:14+08:00][sql] CONNECT:[ UseTime:0.001474s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T13:59:14+08:00][sql] show tables [ RunTime:0.000995s ]
+[2020-10-01T13:59:14+08:00][error] [8]Array to string conversion[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:20]
+[2020-10-01T13:59:56+08:00][sql] CONNECT:[ UseTime:0.002301s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T13:59:56+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET ' at line 11[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:00:21+08:00][sql] CONNECT:[ UseTime:0.002159s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:00:21+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET ' at line 11[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:02:03+08:00][sql] CONNECT:[ UseTime:0.010580s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:02:03+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-09-28 21:54:53
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000353s ]
+[2020-10-01T14:02:03+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000171s ]
+[2020-10-01T14:02:03+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:05:20+08:00][sql] CONNECT:[ UseTime:0.010403s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:05:20+08:00][sql] 
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000323s ]
+[2020-10-01T14:05:20+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000222s ]
+[2020-10-01T14:05:20+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:05:48+08:00][sql] CONNECT:[ UseTime:0.001590s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:05:48+08:00][sql] 
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.144307s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040037s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.039292s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.039116s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.036150s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.038675s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.037756s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.037656s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.039293s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.037415s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.100503s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.077247s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.085534s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.082773s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.083025s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.085378s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.096435s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.075102s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.079740s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.073264s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.080976s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.072781s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.070519s ]
+[2020-10-01T14:05:48+08:00][sql] 
+
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.080297s ]
+[2020-10-01T14:05:48+08:00][sql] 
+COMMIT; [ RunTime:0.000134s ]
+[2020-10-01T14:05:48+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:08:19+08:00][sql] CONNECT:[ UseTime:0.002231s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:08:19+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000380s ]
+[2020-10-01T14:08:19+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000155s ]
+[2020-10-01T14:08:19+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:08:20+08:00][sql] CONNECT:[ UseTime:0.011665s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:08:20+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000408s ]
+[2020-10-01T14:08:20+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000194s ]
+[2020-10-01T14:08:20+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:11:54+08:00][sql] CONNECT:[ UseTime:0.001389s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:11:54+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000287s ]
+[2020-10-01T14:11:54+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000120s ]
+[2020-10-01T14:11:54+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:12:16+08:00][sql] CONNECT:[ UseTime:0.010252s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:12:16+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000367s ]
+[2020-10-01T14:12:16+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000123s ]
+[2020-10-01T14:12:16+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:13:02+08:00][sql] CONNECT:[ UseTime:0.001644s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:13:02+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000326s ]
+[2020-10-01T14:13:02+08:00][error] [0]Call to undefined function app\install\controller\getLastsql()[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:21]
+[2020-10-01T14:13:11+08:00][sql] CONNECT:[ UseTime:0.002442s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:13:11+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000380s ]
+[2020-10-01T14:13:11+08:00][error] [0]Call to undefined method app\install\controller\Index::getLastsql()[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:21]
+[2020-10-01T14:13:31+08:00][sql] CONNECT:[ UseTime:0.010128s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:13:31+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000280s ]
+[2020-10-01T14:13:31+08:00][error] [8]Array to string conversion[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:20]
+[2020-10-01T14:13:45+08:00][sql] CONNECT:[ UseTime:0.010742s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:13:45+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000325s ]
+[2020-10-01T14:13:45+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000273s ]
+[2020-10-01T14:13:45+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:15:26+08:00][sql] CONNECT:[ UseTime:0.002704s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:15:26+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000286s ]
+[2020-10-01T14:15:26+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000278s ]
+[2020-10-01T14:15:26+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:15:31+08:00][sql] CONNECT:[ UseTime:0.001898s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:15:31+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000156s ]
+[2020-10-01T14:15:31+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000233s ]
+[2020-10-01T14:15:31+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:15:31+08:00][sql] CONNECT:[ UseTime:0.001833s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:15:31+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000325s ]
+[2020-10-01T14:15:31+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000219s ]
+[2020-10-01T14:15:31+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:15:31+08:00][sql] CONNECT:[ UseTime:0.001805s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:15:31+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000255s ]
+[2020-10-01T14:15:31+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000249s ]
+[2020-10-01T14:15:31+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:15:44+08:00][sql] CONNECT:[ UseTime:0.011795s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:15:44+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000329s ]
+[2020-10-01T14:15:44+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000332s ]
+[2020-10-01T14:15:44+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:16:27+08:00][sql] CONNECT:[ UseTime:0.002308s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:16:27+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000338s ]
+[2020-10-01T14:16:27+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000256s ]
+[2020-10-01T14:16:27+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:16:30+08:00][sql] CONNECT:[ UseTime:0.002553s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:16:30+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000289s ]
+[2020-10-01T14:16:30+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000421s ]
+[2020-10-01T14:16:30+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:16:31+08:00][sql] CONNECT:[ UseTime:0.001570s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:16:31+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000277s ]
+[2020-10-01T14:16:31+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000218s ]
+[2020-10-01T14:16:31+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:16:31+08:00][sql] CONNECT:[ UseTime:0.001468s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:16:31+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000210s ]
+[2020-10-01T14:16:31+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000261s ]
+[2020-10-01T14:16:31+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:16:31+08:00][sql] CONNECT:[ UseTime:0.001635s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:16:31+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000454s ]
+[2020-10-01T14:16:31+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000233s ]
+[2020-10-01T14:16:31+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:16:32+08:00][sql] CONNECT:[ UseTime:0.001384s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:16:32+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000223s ]
+[2020-10-01T14:16:32+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000241s ]
+[2020-10-01T14:16:32+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:17:25+08:00][sql] CONNECT:[ UseTime:0.001624s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:17:25+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000349s ]
+[2020-10-01T14:17:25+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000313s ]
+[2020-10-01T14:17:25+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:17:26+08:00][sql] CONNECT:[ UseTime:0.002394s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:17:26+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000319s ]
+[2020-10-01T14:17:26+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000363s ]
+[2020-10-01T14:17:26+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:17:26+08:00][sql] CONNECT:[ UseTime:0.002808s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:17:26+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000403s ]
+[2020-10-01T14:17:26+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000356s ]
+[2020-10-01T14:17:26+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:17:26+08:00][sql] CONNECT:[ UseTime:0.010357s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:17:26+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000378s ]
+[2020-10-01T14:17:26+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000322s ]
+[2020-10-01T14:17:26+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:17:27+08:00][sql] CONNECT:[ UseTime:0.002532s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:17:27+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000323s ]
+[2020-10-01T14:17:27+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000397s ]
+[2020-10-01T14:17:27+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:17:27+08:00][sql] CONNECT:[ UseTime:0.009662s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:17:27+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000385s ]
+[2020-10-01T14:17:27+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000277s ]
+[2020-10-01T14:17:27+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:17:28+08:00][sql] CONNECT:[ UseTime:0.002475s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:17:28+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000686s ]
+[2020-10-01T14:17:28+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000374s ]
+[2020-10-01T14:17:28+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:18:23+08:00][sql] CONNECT:[ UseTime:0.001912s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:18:23+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000262s ]
+[2020-10-01T14:18:23+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000363s ]
+[2020-10-01T14:18:23+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:18:24+08:00][sql] CONNECT:[ UseTime:0.000178s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:18:24+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000303s ]
+[2020-10-01T14:18:24+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000608s ]
+[2020-10-01T14:18:24+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:23:04+08:00][sql] CONNECT:[ UseTime:0.002215s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:23:04+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000408s ]
+[2020-10-01T14:23:04+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000363s ]
+[2020-10-01T14:23:04+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:26:03+08:00][sql] CONNECT:[ UseTime:0.001783s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:26:03+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000362s ]
+[2020-10-01T14:26:03+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000485s ]
+[2020-10-01T14:26:03+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:31:17+08:00][sql] CONNECT:[ UseTime:0.018921s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:31:17+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000381s ]
+[2020-10-01T14:31:17+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000285s ]
+[2020-10-01T14:31:17+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:36:25+08:00][sql] CONNECT:[ UseTime:0.002129s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:36:25+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET ' at line 11[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:38:24+08:00][sql] CONNECT:[ UseTime:0.001743s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:38:24+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET AUTOCOMMIT = 0;
+START TRANSACTION;
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=' at line 11[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:39:19+08:00][sql] CONNECT:[ UseTime:0.001792s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:39:19+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type' at line 21[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:40:28+08:00][sql] CONNECT:[ UseTime:0.002002s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:40:28+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type' at line 18[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:40:39+08:00][sql] CONNECT:[ UseTime:0.003140s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:40:39+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type' at line 18[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:40:50+08:00][sql] CONNECT:[ UseTime:0.001666s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:40:50+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type' at line 9[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:41:04+08:00][sql] CONNECT:[ UseTime:0.003453s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:41:04+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type' at line 10[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:42:23+08:00][error] [2]Invalid argument supplied for foreach()[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:18]
+[2020-10-01T14:42:43+08:00][sql] CONNECT:[ UseTime:0.002310s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:42:43+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET ' at line 11[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:43:11+08:00][sql] CONNECT:[ UseTime:0.002122s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:43:11+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000378s ]
+[2020-10-01T14:43:11+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000356s ]
+[2020-10-01T14:43:11+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:43:41+08:00][sql] CONNECT:[ UseTime:0.002197s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:43:41+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000449s ]
+[2020-10-01T14:43:41+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000337s ]
+[2020-10-01T14:43:41+08:00][error] [10501]SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:46:53+08:00][sql] CONNECT:[ UseTime:0.002049s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:46:53+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000428s ]
+[2020-10-01T14:46:53+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000254s ]
+[2020-10-01T14:46:53+08:00][sql] 
+START TRANSACTION [ RunTime:0.000110s ]
+[2020-10-01T14:46:53+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000126s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000138s ]
+[2020-10-01T14:46:53+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000127s ]
+[2020-10-01T14:46:53+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000127s ]
+[2020-10-01T14:46:53+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000128s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.042068s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.050725s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.042985s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.043080s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.040059s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.041688s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.039594s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.039576s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.041763s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.037528s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.089167s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.101935s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.095985s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.090720s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.095759s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.111160s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.088456s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id' [ RunTime:0.106507s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id' [ RunTime:0.076221s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.079873s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.080178s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.089351s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.067626s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.075351s ]
+[2020-10-01T14:46:53+08:00][sql] 
+COMMIT [ RunTime:0.000128s ]
+[2020-10-01T14:46:53+08:00][sql] 
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */ [ RunTime:0.000123s ]
+[2020-10-01T14:46:53+08:00][sql] 
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */ [ RunTime:0.000096s ]
+[2020-10-01T14:46:53+08:00][sql] 
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */ [ RunTime:0.000095s ]
+[2020-10-01T14:46:53+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+[2020-10-01T14:48:17+08:00][sql] CONNECT:[ UseTime:0.001587s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:48:17+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000366s ]
+[2020-10-01T14:48:17+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000221s ]
+[2020-10-01T14:48:17+08:00][sql] 
+START TRANSACTION [ RunTime:0.000091s ]
+[2020-10-01T14:48:17+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000101s ]
+[2020-10-01T14:48:17+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000112s ]
+[2020-10-01T14:48:17+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000096s ]
+[2020-10-01T14:48:17+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000096s ]
+[2020-10-01T14:48:17+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000095s ]
+[2020-10-01T14:48:17+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists
+[2020-10-01T14:51:32+08:00][sql] CONNECT:[ UseTime:0.010634s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:51:32+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000592s ]
+[2020-10-01T14:51:32+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000296s ]
+[2020-10-01T14:51:32+08:00][sql] 
+START TRANSACTION [ RunTime:0.000133s ]
+[2020-10-01T14:51:32+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000142s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000154s ]
+[2020-10-01T14:51:32+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000142s ]
+[2020-10-01T14:51:32+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000144s ]
+[2020-10-01T14:51:32+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000137s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.128018s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.082560s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.078137s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.092588s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.082120s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.105256s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.070872s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.077007s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.075223s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.057416s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.141672s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.099465s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.135204s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.178253s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.143569s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.090735s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.120332s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id' [ RunTime:0.101866s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id' [ RunTime:0.080643s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.071822s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.078368s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.076234s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.077156s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.077541s ]
+[2020-10-01T14:51:32+08:00][sql] 
+COMMIT [ RunTime:0.000127s ]
+[2020-10-01T14:51:32+08:00][sql] 
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */ [ RunTime:0.000132s ]
+[2020-10-01T14:51:32+08:00][sql] 
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */ [ RunTime:0.000106s ]
+[2020-10-01T14:51:32+08:00][sql] 
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */ [ RunTime:0.000101s ]
+[2020-10-01T14:51:32+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+[2020-10-01T14:51:48+08:00][sql] CONNECT:[ UseTime:0.010778s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:51:48+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000608s ]
+[2020-10-01T14:51:48+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000360s ]
+[2020-10-01T14:51:48+08:00][sql] 
+START TRANSACTION [ RunTime:0.000199s ]
+[2020-10-01T14:51:48+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000219s ]
+[2020-10-01T14:51:48+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000234s ]
+[2020-10-01T14:51:48+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000318s ]
+[2020-10-01T14:51:48+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000198s ]
+[2020-10-01T14:51:48+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000197s ]
+[2020-10-01T14:51:48+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists
+[2020-10-01T14:51:50+08:00][sql] CONNECT:[ UseTime:0.017362s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:51:50+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000477s ]
+[2020-10-01T14:51:50+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000352s ]
+[2020-10-01T14:51:50+08:00][sql] 
+START TRANSACTION [ RunTime:0.000200s ]
+[2020-10-01T14:51:50+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000222s ]
+[2020-10-01T14:51:50+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000236s ]
+[2020-10-01T14:51:50+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000238s ]
+[2020-10-01T14:51:50+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000230s ]
+[2020-10-01T14:51:50+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000226s ]
+[2020-10-01T14:51:50+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists
+[2020-10-01T14:52:49+08:00][sql] CONNECT:[ UseTime:0.013738s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:52:49+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000303s ]
+[2020-10-01T14:52:49+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000240s ]
+[2020-10-01T14:52:49+08:00][sql] 
+START TRANSACTION [ RunTime:0.000315s ]
+[2020-10-01T14:52:49+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000211s ]
+[2020-10-01T14:52:49+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000180s ]
+[2020-10-01T14:52:49+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000157s ]
+[2020-10-01T14:52:49+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000219s ]
+[2020-10-01T14:52:49+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000193s ]
+[2020-10-01T14:52:49+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists
+[2020-10-01T14:52:50+08:00][sql] CONNECT:[ UseTime:0.016372s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:52:50+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000437s ]
+[2020-10-01T14:52:50+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000287s ]
+[2020-10-01T14:52:50+08:00][sql] 
+START TRANSACTION [ RunTime:0.000166s ]
+[2020-10-01T14:52:50+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000152s ]
+[2020-10-01T14:52:50+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000149s ]
+[2020-10-01T14:52:50+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000144s ]
+[2020-10-01T14:52:50+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000145s ]
+[2020-10-01T14:52:50+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000162s ]
+[2020-10-01T14:52:50+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists
+[2020-10-01T14:52:50+08:00][sql] CONNECT:[ UseTime:0.012129s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:52:50+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000552s ]
+[2020-10-01T14:52:50+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000305s ]
+[2020-10-01T14:52:50+08:00][sql] 
+START TRANSACTION [ RunTime:0.000211s ]
+[2020-10-01T14:52:50+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000210s ]
+[2020-10-01T14:52:50+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000222s ]
+[2020-10-01T14:52:50+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000206s ]
+[2020-10-01T14:52:50+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000208s ]
+[2020-10-01T14:52:50+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000209s ]
+[2020-10-01T14:52:50+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists
+[2020-10-01T14:52:51+08:00][sql] CONNECT:[ UseTime:0.012048s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:52:51+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000402s ]
+[2020-10-01T14:52:51+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000299s ]
+[2020-10-01T14:52:51+08:00][sql] 
+START TRANSACTION [ RunTime:0.000193s ]
+[2020-10-01T14:52:51+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000258s ]
+[2020-10-01T14:52:51+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000397s ]
+[2020-10-01T14:52:51+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000340s ]
+[2020-10-01T14:52:51+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000312s ]
+[2020-10-01T14:52:51+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000258s ]
+[2020-10-01T14:52:51+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists
+[2020-10-01T14:53:26+08:00][sql] CONNECT:[ UseTime:0.012027s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:53:26+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO" [ RunTime:0.000415s ]
+[2020-10-01T14:53:26+08:00][sql] 
+SET AUTOCOMMIT = 0 [ RunTime:0.000256s ]
+[2020-10-01T14:53:26+08:00][sql] 
+START TRANSACTION [ RunTime:0.000119s ]
+[2020-10-01T14:53:26+08:00][sql] 
+SET time_zone = "+00:00" [ RunTime:0.000130s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ [ RunTime:0.000187s ]
+[2020-10-01T14:53:26+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ [ RunTime:0.000142s ]
+[2020-10-01T14:53:26+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */ [ RunTime:0.000137s ]
+[2020-10-01T14:53:26+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */ [ RunTime:0.000221s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.121489s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.065212s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.072641s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.078755s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.068709s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.080026s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.065007s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.066041s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.083244s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 [ RunTime:0.079608s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.157383s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.180943s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.170407s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.178652s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.162017s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.146127s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`) [ RunTime:0.119681s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id' [ RunTime:0.110287s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id' [ RunTime:0.151651s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.140725s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.147476s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.150059s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.132913s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT [ RunTime:0.108055s ]
+[2020-10-01T14:53:26+08:00][sql] 
+COMMIT [ RunTime:0.000149s ]
+[2020-10-01T14:53:26+08:00][sql] 
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */ [ RunTime:0.000167s ]
+[2020-10-01T14:53:26+08:00][sql] 
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */ [ RunTime:0.000145s ]
+[2020-10-01T14:53:26+08:00][sql] 
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */ [ RunTime:0.000142s ]
+[2020-10-01T14:53:26+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:55:18+08:00][sql] CONNECT:[ UseTime:0.003014s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:55:18+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000462s ]
+[2020-10-01T14:55:18+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000229s ]
+[2020-10-01T14:55:18+08:00][sql] 
+START TRANSACTION; [ RunTime:0.000093s ]
+[2020-10-01T14:55:18+08:00][sql] 
+SET time_zone = "+00:00"; [ RunTime:0.000101s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */; [ RunTime:0.000111s ]
+[2020-10-01T14:55:18+08:00][sql] 
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */; [ RunTime:0.000111s ]
+[2020-10-01T14:55:18+08:00][sql] 
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */; [ RunTime:0.000097s ]
+[2020-10-01T14:55:18+08:00][sql] 
+/*!40101 SET NAMES utf8mb4 */; [ RunTime:0.000097s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.087394s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.051633s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.037308s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.042883s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.049596s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.043702s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.042877s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.039104s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.035835s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.037025s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.097964s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.094179s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.088464s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.092559s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.093928s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.087028s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.088766s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.076113s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.066755s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.076124s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.076065s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.067824s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.075836s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.077238s ]
+[2020-10-01T14:55:18+08:00][sql] 
+COMMIT; [ RunTime:0.000126s ]
+[2020-10-01T14:55:18+08:00][sql] 
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */; [ RunTime:0.000124s ]
+[2020-10-01T14:55:18+08:00][sql] 
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */; [ RunTime:0.000248s ]
+[2020-10-01T14:55:18+08:00][sql] 
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */; [ RunTime:0.000088s ]
+[2020-10-01T14:55:18+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:56:39+08:00][sql] CONNECT:[ UseTime:0.002626s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:56:39+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000324s ]
+[2020-10-01T14:56:39+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000483s ]
+[2020-10-01T14:56:39+08:00][sql] 
+START TRANSACTION; [ RunTime:0.000119s ]
+[2020-10-01T14:56:39+08:00][sql] 
+SET time_zone = "+00:00"; [ RunTime:0.000135s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+
+
+--
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.095994s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.043385s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.043846s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040919s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.038667s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.037521s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040353s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.035676s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040572s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.043475s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.083803s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.091837s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.094442s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.095357s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.082321s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.088679s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.079736s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.083509s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.075899s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.079568s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.076148s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.075639s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.065202s ]
+[2020-10-01T14:56:39+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.077910s ]
+[2020-10-01T14:56:39+08:00][sql] 
+COMMIT; [ RunTime:0.000119s ]
+[2020-10-01T14:56:39+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:57:39+08:00][sql] CONNECT:[ UseTime:0.010232s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:57:39+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000519s ]
+[2020-10-01T14:57:39+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000121s ]
+[2020-10-01T14:57:39+08:00][sql] 
+START TRANSACTION; [ RunTime:0.000106s ]
+[2020-10-01T14:57:39+08:00][sql] 
+SET time_zone = "+00:00"; [ RunTime:0.000116s ]
+[2020-10-01T14:57:39+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:58:01+08:00][sql] CONNECT:[ UseTime:0.012804s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:58:01+08:00][sql] -- phpMyAdmin SQL Dump
+-- version 4.7.9
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: 2020-10-01 14:07:05
+-- 服务器版本： 5.6.48-log
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; [ RunTime:0.000319s ]
+[2020-10-01T14:58:01+08:00][sql] 
+SET AUTOCOMMIT = 0; [ RunTime:0.000104s ]
+[2020-10-01T14:58:01+08:00][sql] 
+START TRANSACTION; [ RunTime:0.000089s ]
+[2020-10-01T14:58:01+08:00][sql] 
+SET time_zone = "+00:00"; [ RunTime:0.000096s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+
+
+--
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.113197s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.062259s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.063097s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.061348s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.088040s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.066517s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.056532s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.063442s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.060733s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.063110s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.141272s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.092401s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.097641s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.091320s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.109652s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.084859s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.082612s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.080859s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.079354s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.086405s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.086044s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.095085s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.077989s ]
+[2020-10-01T14:58:01+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.075354s ]
+[2020-10-01T14:58:01+08:00][sql] 
+COMMIT; [ RunTime:0.000114s ]
+[2020-10-01T14:58:01+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T14:59:26+08:00][sql] CONNECT:[ UseTime:0.013964s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T14:59:26+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.122975s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.073962s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.074649s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.077780s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.081727s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.076759s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.075284s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.080193s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.077612s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.077774s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.178857s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.176681s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.215963s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.187572s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.158900s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.178770s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.179582s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.139696s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.139213s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.142544s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.147878s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.145584s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.159987s ]
+[2020-10-01T14:59:26+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.189439s ]
+[2020-10-01T14:59:26+08:00][sql] 
+COMMIT; [ RunTime:0.000223s ]
+[2020-10-01T14:59:26+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:00:19+08:00][sql] CONNECT:[ UseTime:0.003116s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:00:19+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.126889s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.056841s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.048915s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.050638s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.044426s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.041227s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.044240s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.059247s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.079044s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.076923s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.177684s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.176946s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.179563s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.168180s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.157888s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.160873s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.174493s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.150051s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.150867s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.148012s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.150496s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.157800s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.142659s ]
+[2020-10-01T15:00:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.144677s ]
+[2020-10-01T15:00:19+08:00][sql] 
+COMMIT; [ RunTime:0.000332s ]
+[2020-10-01T15:00:19+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:01:40+08:00][sql] CONNECT:[ UseTime:0.015144s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:01:40+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:02:04+08:00][sql] CONNECT:[ UseTime:0.002163s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:02:04+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.091705s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.042952s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.039379s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040565s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040529s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.067578s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.046477s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.052349s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.046229s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040108s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.085219s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.081267s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.115165s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.078753s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.094800s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.088322s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.094310s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.075954s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.074138s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.076281s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.066221s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.078658s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.079136s ]
+[2020-10-01T15:02:04+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.073405s ]
+[2020-10-01T15:02:04+08:00][sql] 
+COMMIT; [ RunTime:0.000212s ]
+[2020-10-01T15:02:04+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+[2020-10-01T15:02:19+08:00][sql] CONNECT:[ UseTime:0.002925s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:02:19+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.128520s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.080191s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.074042s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.083416s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.076127s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.056359s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.045728s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.043025s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.038814s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.044610s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.125130s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.139567s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.145745s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.158763s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.103258s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.100474s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.091065s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.118048s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.098720s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.095696s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.085064s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.084323s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.142223s ]
+[2020-10-01T15:02:19+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.167416s ]
+[2020-10-01T15:02:19+08:00][sql] 
+COMMIT; [ RunTime:0.000331s ]
+[2020-10-01T15:02:19+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+[2020-10-01T15:02:54+08:00][sql] CONNECT:[ UseTime:0.002528s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:02:54+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.115688s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.079791s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.079376s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.088488s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.072394s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.058064s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.074593s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.076492s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.067468s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.078088s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.158516s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.155688s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.171318s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.123671s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.136833s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.186689s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.146244s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.160568s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.136650s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.142654s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.147787s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.140927s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.146429s ]
+[2020-10-01T15:02:54+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.151361s ]
+[2020-10-01T15:02:54+08:00][sql] 
+COMMIT; [ RunTime:0.000407s ]
+[2020-10-01T15:02:54+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:10:13+08:00][sql] CONNECT:[ UseTime:0.002650s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:10:13+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.113210s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.077939s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.076668s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.076908s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.077454s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.082994s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.078005s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.083757s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.054071s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.041262s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.106064s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.142677s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.138055s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.121349s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.095325s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.119721s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.126000s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.128697s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.131718s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.124898s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.140032s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.141532s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.140153s ]
+[2020-10-01T15:10:13+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.141503s ]
+[2020-10-01T15:10:13+08:00][sql] 
+COMMIT; [ RunTime:0.000373s ]
+[2020-10-01T15:10:13+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:14:03+08:00][sql] CONNECT:[ UseTime:0.002736s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:14:03+08:00][error] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<br>' at line 17[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:14:20+08:00][sql] CONNECT:[ UseTime:0.001578s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:14:20+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:15:06+08:00][sql] CONNECT:[ UseTime:0.001697s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:15:06+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:15:17+08:00][sql] CONNECT:[ UseTime:0.013019s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:15:17+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.121096s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.075067s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.074639s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.079510s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.081155s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.085504s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.074965s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.071904s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.076208s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.081680s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.183225s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.182372s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.170636s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.170172s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.170550s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.171844s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.169314s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.146703s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.150030s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.142230s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.119099s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.126830s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.138715s ]
+[2020-10-01T15:15:17+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.144903s ]
+[2020-10-01T15:15:17+08:00][sql] 
+COMMIT; [ RunTime:0.000325s ]
+[2020-10-01T15:15:30+08:00][sql] CONNECT:[ UseTime:0.013332s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:15:30+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:17:26+08:00][sql] CONNECT:[ UseTime:0.013273s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:17:26+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T15:17:41+08:00][sql] CONNECT:[ UseTime:0.013480s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:17:41+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.122928s ]
+[2020-10-01T15:17:41+08:00][error] [8]Array to string conversion[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:22]
+[2020-10-01T15:18:15+08:00][sql] CONNECT:[ UseTime:0.002422s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:18:15+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.120878s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.075932s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.080749s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.087411s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.076593s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.077474s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.071048s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.078214s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.067631s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.082561s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.180510s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.188849s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.170486s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.157714s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.173845s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.144797s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.143901s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.141785s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.149662s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.133779s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.109449s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.103236s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.095523s ]
+[2020-10-01T15:18:15+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.117738s ]
+[2020-10-01T15:18:15+08:00][sql] 
+COMMIT; [ RunTime:0.000381s ]
+[2020-10-01T15:22:52+08:00][error] [0]语法错误: unexpected '=', expecting ']'[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:24]
+[2020-10-01T15:23:06+08:00][sql] CONNECT:[ UseTime:0.012312s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:23:06+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.047192s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.047345s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.034882s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.042805s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.039843s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.047942s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040277s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.042998s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.042890s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.040502s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.105865s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.095169s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.092717s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.111610s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.101725s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.094742s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.106670s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.083012s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.071574s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.073556s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.079587s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.073509s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.105098s ]
+[2020-10-01T15:23:06+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.076093s ]
+[2020-10-01T15:23:06+08:00][sql] 
+COMMIT; [ RunTime:0.000220s ]
+[2020-10-01T15:26:28+08:00][error] [0]语法错误: unexpected 'return' (T_RETURN)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:43]
+[2020-10-01T15:26:41+08:00][sql] CONNECT:[ UseTime:0.011501s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T15:26:41+08:00][sql] --
+-- Database: `jifei`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_admin`
+--
+
+CREATE TABLE `yh_admin` (
+  `id` int(11) NOT NULL COMMENT '账号id',
+  `name` char(10) NOT NULL COMMENT '管理员名称',
+  `username` char(10) NOT NULL COMMENT '用户名',
+  `password` char(32) NOT NULL COMMENT '密码',
+  `identity` tinyint(1) NOT NULL COMMENT '身份 1-超级管理员 2-代理'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.086478s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_business`
+--
+
+CREATE TABLE `yh_business` (
+  `id` int(11) NOT NULL COMMENT '用户id',
+  `type` tinyint(4) NOT NULL COMMENT '1-包点 2-包月',
+  `surplus` int(11) NOT NULL COMMENT '剩余业务',
+  `calltoday` int(11) NOT NULL COMMENT '今日调用',
+  `user_uid` int(11) NOT NULL COMMENT 'uid',
+  `user_key` varchar(32) NOT NULL COMMENT 'key',
+  `limitnum` int(11) NOT NULL COMMENT '限制'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.053351s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_information`
+--
+
+CREATE TABLE `yh_information` (
+  `id` int(11) NOT NULL COMMENT '管理员id',
+  `notice` text COMMENT '公告信息',
+  `zfid` char(10) NOT NULL COMMENT '支付id',
+  `zfkey` char(50) NOT NULL COMMENT '支付key',
+  `give` int(11) NOT NULL DEFAULT '500' COMMENT '赠送点数'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.041986s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal`
+--
+
+CREATE TABLE `yh_meal` (
+  `id` int(11) NOT NULL,
+  `name` char(20) NOT NULL COMMENT '套餐名称',
+  `price` int(11) NOT NULL COMMENT '套餐价格',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1-包点 2-包月'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.039846s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_month`
+--
+
+CREATE TABLE `yh_meal_month` (
+  `id` int(11) NOT NULL,
+  `month` tinyint(4) NOT NULL COMMENT '套餐月份',
+  `introduce` text NOT NULL COMMENT '套餐介绍',
+  `status` tinyint(4) NOT NULL COMMENT '套餐状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.041585s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_meal_point`
+--
+
+CREATE TABLE `yh_meal_point` (
+  `id` int(11) NOT NULL,
+  `point` int(11) NOT NULL COMMENT '点数',
+  `introduce` text NOT NULL COMMENT '介绍',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-禁用 1-启用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.041971s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_order`
+--
+
+CREATE TABLE `yh_order` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL COMMENT '用户id',
+  `payment` int(11) NOT NULL COMMENT '金额',
+  `method` tinyint(4) NOT NULL COMMENT '方式 0-其他 1-支付宝 2-微信',
+  `intime` int(11) NOT NULL COMMENT '交易日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.045716s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_record`
+--
+
+CREATE TABLE `yh_record` (
+  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `url` varchar(200) NOT NULL,
+  `ip` int(11) NOT NULL,
+  `status` int(11) NOT NULL COMMENT '0-失败 1-成功',
+  `intime` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.039035s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_replace`
+--
+
+CREATE TABLE `yh_replace` (
+  `id` int(11) NOT NULL,
+  `name` char(30) NOT NULL COMMENT '视频名称',
+  `url` varchar(200) NOT NULL COMMENT '原视频',
+  `newurl` varchar(200) NOT NULL COMMENT '新视频',
+  `intime` int(11) NOT NULL COMMENT '添加时间',
+  `status` tinyint(4) NOT NULL COMMENT '状态 0-待添加 1-正常  2-停用'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.036088s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `yh_user`
+--
+
+CREATE TABLE `yh_user` (
+  `id` int(11) NOT NULL,
+  `username` char(10) NOT NULL COMMENT '账号',
+  `email` char(20) NOT NULL COMMENT '邮箱',
+  `qq` char(10) NOT NULL COMMENT '联系QQ',
+  `password` char(32) NOT NULL COMMENT '用户密码',
+  `balance` int(11) NOT NULL COMMENT '余额',
+  `intime` int(11) NOT NULL COMMENT '注册时间',
+  `status` int(11) NOT NULL COMMENT '账号状态 0-禁用 1-正常'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.044332s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.090417s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- Indexes for table `yh_information`
+--
+ALTER TABLE `yh_information`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.079925s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- Indexes for table `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.090767s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- Indexes for table `yh_order`
+--
+ALTER TABLE `yh_order`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.080060s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- Indexes for table `yh_record`
+--
+ALTER TABLE `yh_record`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.090828s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- Indexes for table `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.087277s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- Indexes for table `yh_user`
+--
+ALTER TABLE `yh_user`
+  ADD PRIMARY KEY (`id`); [ RunTime:0.091459s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `yh_admin`
+--
+ALTER TABLE `yh_admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '账号id'; [ RunTime:0.078570s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_information`
+--
+ALTER TABLE `yh_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员id'; [ RunTime:0.075513s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_meal`
+--
+ALTER TABLE `yh_meal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.079402s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_order`
+--
+ALTER TABLE `yh_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.074974s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_record`
+--
+ALTER TABLE `yh_record`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.077595s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_replace`
+--
+ALTER TABLE `yh_replace`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.080953s ]
+[2020-10-01T15:26:41+08:00][sql] 
+
+--
+-- 使用表AUTO_INCREMENT `yh_user`
+--
+ALTER TABLE `yh_user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; [ RunTime:0.078756s ]
+[2020-10-01T15:26:41+08:00][sql] 
+COMMIT; [ RunTime:0.000220s ]
+[2020-10-01T15:29:27+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\install\index\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-01T15:54:39+08:00][error] [0]Argument 1 passed to think\DbManager::connect() must be of the type string or null, array given[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\DbManager.php:234]
+[2020-10-01T15:59:39+08:00][error] [0]Argument 1 passed to think\DbManager::connect() must be of the type string or null, array given[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\DbManager.php:234]
+[2020-10-01T16:00:24+08:00][error] [0]Argument 1 passed to think\DbManager::connect() must be of the type string or null, array given[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\DbManager.php:234]
+[2020-10-01T16:07:50+08:00][error] [2]file_put_contents(/config/database2.php): failed to open stream: No such file or directory[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:27]
+[2020-10-01T16:08:08+08:00][sql] CONNECT:[ UseTime:0.002517s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T16:08:08+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T16:08:14+08:00][error] [2]file_put_contents(./config/database2.php): failed to open stream: No such file or directory[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:27]
+[2020-10-01T16:08:25+08:00][sql] CONNECT:[ UseTime:0.002136s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T16:08:25+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T16:20:19+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:83]
+[2020-10-01T16:20:49+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:83]
+[2020-10-01T16:21:58+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:83]
+[2020-10-01T16:22:06+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:83]
+[2020-10-01T16:23:50+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:67]
+[2020-10-01T16:24:09+08:00][error] [0]语法错误: unexpected 'input' (T_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:35]
+[2020-10-01T16:24:18+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:67]
+[2020-10-01T16:25:16+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:66]
+[2020-10-01T16:25:50+08:00][sql] CONNECT:[ UseTime:0.002915s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T16:25:50+08:00][error] [10501]SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'yh_admin' already exists[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T16:38:32+08:00][error] [10501]SQLSTATE[HY000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T16:43:04+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:82]
+[2020-10-01T16:43:41+08:00][error] [0]语法错误: unexpected '',' (T_CONSTANT_ENCAPSED_STRING)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:82]
+[2020-10-01T16:50:05+08:00][error] [0]数据库配置未定义:demo[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\DbManager.php:268]
+[2020-10-01T16:51:01+08:00][error] [0]Too few arguments to function think\db\PDOConnection::select(), 0 passed and exactly 1 expected[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:878]
+[2020-10-01T16:52:42+08:00][error] [4096]Object of class think\db\Query could not be converted to string[D:\phpstudy_pro\WWW\tp6\vendor\topthink\framework\src\think\Response.php:395]
+[2020-10-01T16:56:32+08:00][sql] CONNECT:[ UseTime:0.010168s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T16:56:32+08:00][sql] SHOW FULL COLUMNS FROM `yh_admin` [ RunTime:0.017496s ]
+[2020-10-01T16:56:32+08:00][sql] SELECT * FROM `yh_admin` [ RunTime:0.000713s ]
+[2020-10-01T16:56:53+08:00][sql] CONNECT:[ UseTime:0.002459s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-01T16:56:53+08:00][sql] SHOW FULL COLUMNS FROM `yh_admin` [ RunTime:0.019001s ]
+[2020-10-01T16:56:53+08:00][sql] SELECT * FROM `yh_admin` [ RunTime:0.000658s ]
+[2020-10-01T16:58:09+08:00][error] [10501]SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: YES)[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T16:58:20+08:00][error] [10501]SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: YES)[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-orm\src\db\PDOConnection.php:768]
+[2020-10-01T17:13:35+08:00][error] [0]语法错误: unexpected ')', expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR)[D:\phpstudy_pro\WWW\tp6\app\install\controller\Index.php:88]

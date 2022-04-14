@@ -1,0 +1,11 @@
+[2020-10-14T22:32:08+08:00][sql] CONNECT:[ UseTime:0.001768s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-14T22:32:08+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.002664s ]
+[2020-10-14T22:32:08+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000369s ]
+[2020-10-14T22:32:16+08:00][sql] CONNECT:[ UseTime:0.002139s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-14T22:32:16+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.002844s ]
+[2020-10-14T22:32:16+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001230s ]
+[2020-10-14T22:32:16+08:00][sql] SHOW FULL COLUMNS FROM `yh_user` [ RunTime:0.002682s ]
+[2020-10-14T22:32:16+08:00][sql] SELECT `id` FROM `yh_user` WHERE  `username` = 'admin'  AND `password` = '970dd81d615d2cd7e04a6db063234840' LIMIT 1 [ RunTime:0.001178s ]
+[2020-10-14T22:32:16+08:00][sql] CONNECT:[ UseTime:0.001906s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-14T22:32:16+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001705s ]
+[2020-10-14T22:32:16+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000566s ]

@@ -1,0 +1,21 @@
+[2020-10-03T22:49:41+08:00][sql] CONNECT:[ UseTime:0.002017s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-03T22:49:41+08:00][sql] SHOW FULL COLUMNS FROM `yh_user` [ RunTime:0.002446s ]
+[2020-10-03T22:49:41+08:00][sql] SELECT * FROM `yh_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000531s ]
+[2020-10-03T22:49:41+08:00][sql] SHOW FULL COLUMNS FROM `yh_business` [ RunTime:0.000978s ]
+[2020-10-03T22:49:41+08:00][sql] SELECT * FROM `yh_business` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000382s ]
+[2020-10-03T22:49:41+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\admin\index\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-03T22:51:37+08:00][sql] CONNECT:[ UseTime:0.011694s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-03T22:51:37+08:00][sql] SHOW FULL COLUMNS FROM `yh_user` [ RunTime:0.002362s ]
+[2020-10-03T22:51:37+08:00][sql] SELECT * FROM `yh_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000916s ]
+[2020-10-03T22:51:37+08:00][sql] SHOW FULL COLUMNS FROM `yh_business` [ RunTime:0.001861s ]
+[2020-10-03T22:51:37+08:00][sql] SELECT * FROM `yh_business` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000707s ]
+[2020-10-03T22:52:18+08:00][sql] CONNECT:[ UseTime:0.011618s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-03T22:52:18+08:00][sql] SHOW FULL COLUMNS FROM `yh_user` [ RunTime:0.001584s ]
+[2020-10-03T22:52:18+08:00][sql] SELECT * FROM `yh_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000729s ]
+[2020-10-03T22:52:18+08:00][sql] SHOW FULL COLUMNS FROM `yh_business` [ RunTime:0.001741s ]
+[2020-10-03T22:52:18+08:00][sql] SELECT * FROM `yh_business` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000538s ]
+[2020-10-03T22:52:26+08:00][sql] CONNECT:[ UseTime:0.011143s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-03T22:52:26+08:00][sql] SHOW FULL COLUMNS FROM `yh_user` [ RunTime:0.001424s ]
+[2020-10-03T22:52:26+08:00][sql] SELECT * FROM `yh_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000561s ]
+[2020-10-03T22:52:26+08:00][sql] SHOW FULL COLUMNS FROM `yh_business` [ RunTime:0.001508s ]
+[2020-10-03T22:52:26+08:00][sql] SELECT * FROM `yh_business` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000685s ]

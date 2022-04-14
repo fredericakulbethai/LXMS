@@ -1,0 +1,20 @@
+[2021-03-08T03:20:31+08:00][sql] CONNECT:[ UseTime:0.000993s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-08T03:20:31+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001704s ]
+[2021-03-08T03:20:31+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000436s ]
+[2021-03-08T03:20:31+08:00][sql] SELECT `tep`,`htjx` FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000402s ]
+[2021-03-08T03:27:39+08:00][sql] CONNECT:[ UseTime:0.001025s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-08T03:27:39+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001382s ]
+[2021-03-08T03:27:39+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000489s ]
+[2021-03-08T03:27:39+08:00][sql] SELECT `tep`,`htjx` FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000392s ]
+[2021-03-08T03:27:47+08:00][sql] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-08T03:27:47+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001373s ]
+[2021-03-08T03:27:47+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000365s ]
+[2021-03-08T03:27:47+08:00][sql] SELECT `tep`,`htjx` FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000363s ]
+[2021-03-08T13:35:16+08:00][sql] CONNECT:[ UseTime:0.000921s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-08T13:35:16+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001560s ]
+[2021-03-08T13:35:16+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000619s ]
+[2021-03-08T13:35:16+08:00][sql] SELECT `tep`,`htjx` FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000459s ]
+[2021-03-08T13:35:19+08:00][sql] CONNECT:[ UseTime:0.001023s ] mysql:host=127.0.0.1;port=3306;dbname=yunhaijifeixit;charset=utf8
+[2021-03-08T13:35:19+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001392s ]
+[2021-03-08T13:35:19+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000413s ]
+[2021-03-08T13:35:19+08:00][sql] SELECT `tep`,`htjx` FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000372s ]

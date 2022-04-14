@@ -1,0 +1,3 @@
+[2020-10-20T12:36:57+08:00][sql] CONNECT:[ UseTime:0.002010s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-20T12:36:57+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001821s ]
+[2020-10-20T12:36:57+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000291s ]

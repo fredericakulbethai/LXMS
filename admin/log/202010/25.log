@@ -1,0 +1,18 @@
+[2020-10-25T18:02:23+08:00][sql] CONNECT:[ UseTime:0.001101s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-25T18:02:23+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.002804s ]
+[2020-10-25T18:02:23+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000738s ]
+[2020-10-25T18:02:32+08:00][sql] CONNECT:[ UseTime:0.001122s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-25T18:02:32+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.002541s ]
+[2020-10-25T18:02:32+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001010s ]
+[2020-10-25T18:02:32+08:00][sql] SHOW FULL COLUMNS FROM `yh_admin` [ RunTime:0.001592s ]
+[2020-10-25T18:02:32+08:00][sql] SELECT `id` FROM `yh_admin` WHERE  `username` = '1178350505'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000872s ]
+[2020-10-25T18:02:38+08:00][sql] CONNECT:[ UseTime:0.003988s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-25T18:02:38+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.006471s ]
+[2020-10-25T18:02:38+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003867s ]
+[2020-10-25T18:02:38+08:00][sql] SHOW FULL COLUMNS FROM `yh_admin` [ RunTime:0.002203s ]
+[2020-10-25T18:02:38+08:00][sql] SELECT `id` FROM `yh_admin` WHERE  `username` = '1178350505'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000682s ]
+[2020-10-25T18:02:46+08:00][sql] CONNECT:[ UseTime:0.000920s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-25T18:02:46+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.002238s ]
+[2020-10-25T18:02:46+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000823s ]
+[2020-10-25T18:02:46+08:00][sql] SHOW FULL COLUMNS FROM `yh_admin` [ RunTime:0.001881s ]
+[2020-10-25T18:02:46+08:00][sql] SELECT `id` FROM `yh_admin` WHERE  `username` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000605s ]

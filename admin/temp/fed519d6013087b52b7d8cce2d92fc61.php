@@ -1,0 +1,1625 @@
+<?php /*a:6:{s:53:"D:\phpstudy_pro\WWW\tp6\view\admin\website\index.html";i:1603029947;s:43:"D:\phpstudy_pro\WWW\tp6\view\admin\inc.html";i:1603029666;s:45:"D:\phpstudy_pro\WWW\tp6\view\admin\aside.html";i:1603291304;s:43:"D:\phpstudy_pro\WWW\tp6\view\admin\nav.html";i:1603369241;s:44:"D:\phpstudy_pro\WWW\tp6\view\admin\head.html";i:1602426804;s:42:"D:\phpstudy_pro\WWW\tp6\view\admin\js.html";i:1603029789;}*/ ?>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <title><?php echo htmlentities($webtitle); ?> - <?php echo htmlentities($name); ?></title>
+        <!-- Icons -->
+        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        <link rel="shortcut icon" href="/static/adassets/media/favicons/favicon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/static/adassets/media/favicons/favicon-192x192.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/adassets/media/favicons/apple-touch-icon-180x180.png">
+        <!-- END Icons -->
+
+        <!-- Stylesheets -->
+        <!-- Fonts and OneUI framework -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+        <link rel="stylesheet" id="css-main" href="/static/adassets/css/oneui.min.css">
+
+        
+    </head> 
+    <body>
+      
+        <div id="page-container" class="sidebar-o sidebar-dark enable-page-overlay side-scroll page-header-fixed main-content-boxed">
+            <aside id="side-overlay" class="font-size-sm">
+                <!-- Side Header -->
+                <div class="content-header border-bottom">
+                    <!-- User Avatar -->
+                    <a class="img-link mr-1" href="javascript:void(0)">
+                        <img class="img-avatar img-avatar32" src="http://q1.qlogo.cn/g?b=qq&nk=1178350505&s=640" alt="">
+                    </a>
+                    <!-- END User Avatar -->
+
+                    <!-- User Info -->
+                    <div class="ml-2">
+                        <a class="link-fx text-dark font-w600" href="javascript:void(0)">云海</a>
+                    </div>
+                    <!-- END User Info -->
+
+                    <!-- Close Side Overlay -->
+                    <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                    <a class="ml-auto btn btn-sm btn-alt-danger" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_close">
+                        <i class="fa fa-fw fa-times text-danger"></i>
+                    </a>
+                    <!-- END Close Side Overlay -->
+                </div>
+                <!-- END Side Header -->
+
+                <!-- Side Content -->
+                <div class="content-side">
+                    <!-- Side Overlay Tabs -->
+                    <div class="block block-transparent pull-x pull-t">
+                        <ul class="nav nav-tabs nav-tabs-alt nav-justified" data-toggle="tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#so-overview">
+                                    <i class="fa fa-fw fa-coffee text-gray mr-1"></i> 消息
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#so-sales">
+                                    <i class="fa fa-fw fa-chart-line text-gray mr-1"></i> 销售
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="block-content tab-content overflow-hidden">
+                            <!-- Overview Tab -->
+                            <div class="tab-pane pull-x fade fade-left show active" id="so-overview" role="tabpanel">
+                                <!-- Activity -->
+                                <div class="block">
+                                    <div class="block-header block-header-default">
+                                        <h3 class="block-title">日志</h3>
+                                        <div class="block-options">
+                                            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
+                                                <i class="si si-refresh"></i>
+                                            </button>
+                                            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <!-- Activity List -->
+                                        <ul class="nav-items mb-0">
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="si si-wallet text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale ($15)</div>
+                                                        <div class="text-success">Admin Template</div>
+                                                        <small class="text-muted">3 min ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="si si-pencil text-info"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">You edited the file</div>
+                                                        <div class="text-info">
+                                                            <i class="fa fa-file-text"></i> Documentation.doc
+                                                        </div>
+                                                        <small class="text-muted">15 min ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="si si-close text-danger"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Project deleted</div>
+                                                        <div class="text-danger">Line Icon Set</div>
+                                                        <small class="text-muted">4 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!-- END Activity List -->
+                                    </div>
+                                </div>
+                                <!-- END Activity -->
+
+                                <!-- Quick Settings -->
+                                <div class="block mb-0">
+                                    <div class="block-header block-header-default">
+                                        <h3 class="block-title">快速设置</h3>
+                                        <div class="block-options">
+                                            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <!-- Quick Settings Form -->
+                                        <form action="be_pages_dashboard.html" method="POST" onsubmit="return false;">
+                                            <div class="form-group">
+                                                <p class="font-w600 mb-2">
+                                                    Online Status
+                                                </p>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check1" name="so-settings-check1" checked>
+                                                    <label class="custom-control-label" for="so-settings-check1">Show your status to all</label>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+                                                <p class="font-w600 mb-2">
+                                                    Auto Updates
+                                                </p>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check2" name="so-settings-check2" checked>
+                                                    <label class="custom-control-label" for="so-settings-check2">Keep up to date</label>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+                                                <p class="font-w600 mb-1">
+                                                    Application Alerts
+                                                </p>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check3" name="so-settings-check3" checked>
+                                                    <label class="custom-control-label" for="so-settings-check3">Email Notifications</label>
+                                                </div>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check4" name="so-settings-check4" checked>
+                                                    <label class="custom-control-label" for="so-settings-check4">SMS Notifications</label>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+                                                <p class="font-w600 mb-1">
+                                                    API
+                                                </p>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check5" name="so-settings-check5" checked>
+                                                    <label class="custom-control-label" for="so-settings-check5">Enable access</label>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <!-- END Quick Settings Form -->
+                                    </div>
+                                </div>
+                                <!-- END Quick Settings -->
+                            </div>
+                            <!-- END Overview Tab -->
+
+                            <!-- Sales Tab -->
+                            <div class="tab-pane pull-x fade fade-right" id="so-sales" role="tabpanel">
+                                <div class="block mb-0">
+                                    <!-- Stats -->
+                                    <div class="block-content">
+                                        <div class="row items-push pull-t">
+                                            <div class="col-6">
+                                                <div class="font-w700 text-uppercase">今日收益</div>
+                                                <a class="link-fx font-size-h3 font-w300" href="javascript:void(0)">22元</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="font-w700 text-uppercase">昨日收益</div>
+                                                <a class="link-fx font-size-h3 font-w300" href="javascript:void(0)">10元</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- END Stats -->
+
+                                    <!-- Today -->
+                                    <div class="block-content block-content-full block-content-sm bg-body-light">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="font-w600 text-uppercase">today</span>
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                <span class="ext-muted">22元</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <ul class="nav-items push">
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">uid为32421 充值余额 22元</div>
+                                                        <small class="text-muted">3 min ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                               
+                                        </ul>
+                                    </div>
+                                    <!-- END Today -->
+
+                                    <!-- Yesterday -->
+                                    <div class="block-content block-content-full block-content-sm bg-body-light">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="font-w600 text-uppercase">Yesterday</span>
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                <span class="text-muted">10元</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <ul class="nav-items push">
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">uid为32421 充值余额 10元</div>
+                                                        <small class="text-muted">3 min ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+
+                                        <!-- More -->
+                                        <div class="text-center">
+                                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
+                                                <i class="fa fa-arrow-down mr-1"></i> 查看更多..
+                                            </a>
+                                        </div>
+                                        <!-- END More -->
+                                    </div>
+                                    <!-- END Yesterday -->
+                                </div>
+                            </div>
+                            <!-- END Sales Tab -->
+                        </div>
+                    </div>
+                    <!-- END Side Overlay Tabs -->
+                </div>
+                <!-- END Side Content -->
+            </aside> 
+            
+            <nav id="sidebar" aria-label="Main Navigation">
+                <!-- Side Header -->
+                <div class="content-header bg-white-5">
+                    <!-- Logo -->
+                    <a class="font-w600 text-dual" href="index.html">
+                        <i class="fa fa-circle-notch text-primary"></i>
+                        <span class="smini-hide">
+                            <span class="font-w700 font-size-h5">YunHai</span>
+                        </span>
+                    </a>
+                    <!-- END Logo -->
+
+                    <!-- Extra -->
+                    <div>
+                        <!-- Options -->
+                        <div class="dropdown d-inline-block ml-2">
+                            <a class="btn btn-sm btn-dual" id="sidebar-themes-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="si si-drop"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right font-size-sm smini-hide border-0" aria-labelledby="sidebar-themes-dropdown">
+                                <!-- Color Themes -->
+                                <!-- Layout API, functionality initialized in Template._uiHandleTheme() -->
+                                <a class="dropdown-item d-flex align-items-center justify-content-between" data-toggle="theme" data-theme="default" href="#">
+                                    <span>Default</span>
+                                    <i class="fa fa-circle text-default"></i>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center justify-content-between" data-toggle="theme" data-theme="/static/adassets/css/themes/amethyst.min.css" href="#">
+                                    <span>Amethyst</span>
+                                    <i class="fa fa-circle text-amethyst"></i>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center justify-content-between" data-toggle="theme" data-theme="/static/adassets/css/themes/city.min.css" href="#">
+                                    <span>City</span>
+                                    <i class="fa fa-circle text-city"></i>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center justify-content-between" data-toggle="theme" data-theme="/static/adassets/css/themes/flat.min.css" href="#">
+                                    <span>Flat</span>
+                                    <i class="fa fa-circle text-flat"></i>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center justify-content-between" data-toggle="theme" data-theme="/static/adassets/css/themes/modern.min.css" href="#">
+                                    <span>Modern</span>
+                                    <i class="fa fa-circle text-modern"></i>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center justify-content-between" data-toggle="theme" data-theme="/static/adassets/css/themes/smooth.min.css" href="#">
+                                    <span>Smooth</span>
+                                    <i class="fa fa-circle text-smooth"></i>
+                                </a>
+                                <!-- END Color Themes -->
+
+                                <div class="dropdown-divider"></div>
+
+                                <!-- Sidebar Styles -->
+                                <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                                <a class="dropdown-item" data-toggle="layout" data-action="sidebar_style_light" href="#">
+                                    <span>Sidebar Light</span>
+                                </a>
+                                <a class="dropdown-item" data-toggle="layout" data-action="sidebar_style_dark" href="#">
+                                    <span>Sidebar Dark</span>
+                                </a>
+                                <!-- Sidebar Styles -->
+
+                                <div class="dropdown-divider"></div>
+
+                                <!-- Header Styles -->
+                                <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                                <a class="dropdown-item" data-toggle="layout" data-action="header_style_light" href="#">
+                                    <span>Header Light</span>
+                                </a>
+                                <a class="dropdown-item" data-toggle="layout" data-action="header_style_dark" href="#">
+                                    <span>Header Dark</span>
+                                </a>
+                                <!-- Header Styles -->
+                            </div>
+                        </div>
+                        <!-- END Options -->
+
+                        <!-- Close Sidebar, Visible only on mobile screens -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                        <a class="d-lg-none btn btn-sm btn-dual ml-2" data-toggle="layout" data-action="sidebar_close" href="javascript:void(0)">
+                            <i class="fa fa-fw fa-times"></i>
+                        </a>
+                        <!-- END Close Sidebar -->
+                    </div>
+                    <!-- END Extra -->
+                </div>
+                <!-- END Side Header -->
+
+                <!-- Side Navigation -->
+                <div class="content-side content-side-full">
+                    <ul class="nav-main">
+                        <li class="nav-main-item">
+                            <a class="nav-main-link active" href="/admin">
+                                <i class="nav-main-link-icon si si-speedometer"></i>
+                                <span class="nav-main-link-name">仪表盘</span>
+                            </a>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-layers"></i>
+                                <span class="nav-main-link-name">全局设置</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="/admin/website">
+                                        <span class="nav-main-link-name">网站设置</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_blocks_options.html">
+                                        <span class="nav-main-link-name">Options</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_blocks_forms.html">
+                                        <span class="nav-main-link-name">Forms</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_blocks_themed.html">
+                                        <span class="nav-main-link-name">Themed</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_blocks_api.html">
+                                        <span class="nav-main-link-name">API</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-badge"></i>
+                                <span class="nav-main-link-name">Elements</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_grid.html">
+                                        <span class="nav-main-link-name">Grid</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_typography.html">
+                                        <span class="nav-main-link-name">Typography</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_icons.html">
+                                        <span class="nav-main-link-name">Icons</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_buttons.html">
+                                        <span class="nav-main-link-name">Buttons</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_buttons_groups.html">
+                                        <span class="nav-main-link-name">Button Groups</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_dropdowns.html">
+                                        <span class="nav-main-link-name">Dropdowns</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_tabs.html">
+                                        <span class="nav-main-link-name">Tabs</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_navigation.html">
+                                        <span class="nav-main-link-name">Navigation</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_navigation_horizontal.html">
+                                        <span class="nav-main-link-name">Horizontal Navigation</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_progress.html">
+                                        <span class="nav-main-link-name">Progress</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_alerts.html">
+                                        <span class="nav-main-link-name">Alerts</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_tooltips.html">
+                                        <span class="nav-main-link-name">Tooltips</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_popovers.html">
+                                        <span class="nav-main-link-name">Popovers</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_modals.html">
+                                        <span class="nav-main-link-name">Modals</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_images.html">
+                                        <span class="nav-main-link-name">Images Overlay</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_timeline.html">
+                                        <span class="nav-main-link-name">Timeline</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_ribbons.html">
+                                        <span class="nav-main-link-name">Ribbons</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_animations.html">
+                                        <span class="nav-main-link-name">Animations</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_color_themes.html">
+                                        <span class="nav-main-link-name">Color Themes</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-grid"></i>
+                                <span class="nav-main-link-name">Tables</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_tables_styles.html">
+                                        <span class="nav-main-link-name">Styles</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_tables_responsive.html">
+                                        <span class="nav-main-link-name">Responsive</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_tables_helpers.html">
+                                        <span class="nav-main-link-name">Helpers</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_tables_pricing.html">
+                                        <span class="nav-main-link-name">Pricing</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_tables_datatables.html">
+                                        <span class="nav-main-link-name">DataTables</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-note"></i>
+                                <span class="nav-main-link-name">Forms</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_forms_elements.html">
+                                        <span class="nav-main-link-name">Elements</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_forms_custom_controls.html">
+                                        <span class="nav-main-link-name">Custom Controls</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_forms_layouts.html">
+                                        <span class="nav-main-link-name">Layouts</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_forms_input_groups.html">
+                                        <span class="nav-main-link-name">Input Groups</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_forms_plugins.html">
+                                        <span class="nav-main-link-name">Plugins</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_forms_editors.html">
+                                        <span class="nav-main-link-name">Editors</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_forms_validation.html">
+                                        <span class="nav-main-link-name">Validation</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_forms_wizard.html">
+                                        <span class="nav-main-link-name">Wizard</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-heading">Develop</li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-wrench"></i>
+                                <span class="nav-main-link-name">Components</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_loaders.html">
+                                        <span class="nav-main-link-name">Loaders</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_image_cropper.html">
+                                        <span class="nav-main-link-name">Image Cropper</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_appear.html">
+                                        <span class="nav-main-link-name">Appear</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_charts.html">
+                                        <span class="nav-main-link-name">Charts</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_calendar.html">
+                                        <span class="nav-main-link-name">Calendar</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_sliders.html">
+                                        <span class="nav-main-link-name">Sliders</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_syntax_highlighting.html">
+                                        <span class="nav-main-link-name">Syntax Highlighting</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_rating.html">
+                                        <span class="nav-main-link-name">Rating</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_maps_google.html">
+                                        <span class="nav-main-link-name">Google Maps</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_maps_vector.html">
+                                        <span class="nav-main-link-name">Vector Maps</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_dialogs.html">
+                                        <span class="nav-main-link-name">Dialogs</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_notifications.html">
+                                        <span class="nav-main-link-name">Notifications</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_comp_gallery.html">
+                                        <span class="nav-main-link-name">Gallery</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-magic-wand"></i>
+                                <span class="nav-main-link-name">Layout</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                        <span class="nav-main-link-name">Page</span>
+                                    </a>
+                                    <ul class="nav-main-submenu">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_page_default.html">
+                                                <span class="nav-main-link-name">Default</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_page_flipped.html">
+                                                <span class="nav-main-link-name">Flipped</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_page_native_scrolling.html">
+                                                <span class="nav-main-link-name">Native Scrolling</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                        <span class="nav-main-link-name">Main Content</span>
+                                    </a>
+                                    <ul class="nav-main-submenu">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_content_main_full_width.html">
+                                                <span class="nav-main-link-name">Full Width</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_content_main_narrow.html">
+                                                <span class="nav-main-link-name">Narrow</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_content_main_boxed.html">
+                                                <span class="nav-main-link-name">Boxed</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                        <span class="nav-main-link-name">Header</span>
+                                    </a>
+                                    <ul class="nav-main-submenu">
+                                        <li class="nav-main-heading">Fixed</li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_header_fixed_light.html">
+                                                <span class="nav-main-link-name">Light</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_header_fixed_dark.html">
+                                                <span class="nav-main-link-name">Dark</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-heading">Static</li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_header_static_light.html">
+                                                <span class="nav-main-link-name">Light</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_header_static_dark.html">
+                                                <span class="nav-main-link-name">Dark</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                        <span class="nav-main-link-name">Sidebar</span>
+                                    </a>
+                                    <ul class="nav-main-submenu">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_sidebar_mini.html">
+                                                <span class="nav-main-link-name">Mini</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_sidebar_light.html">
+                                                <span class="nav-main-link-name">Light</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_sidebar_dark.html">
+                                                <span class="nav-main-link-name">Dark</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_sidebar_hidden.html">
+                                                <span class="nav-main-link-name">Hidden</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                        <span class="nav-main-link-name">Side Overlay</span>
+                                    </a>
+                                    <ul class="nav-main-submenu">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_side_overlay_visible.html">
+                                                <span class="nav-main-link-name">Visible</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_side_overlay_mode_hover.html">
+                                                <span class="nav-main-link-name">Hover Mode</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="be_layout_side_overlay_no_page_overlay.html">
+                                                <span class="nav-main-link-name">No Page Overlay</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_layout_api.html">
+                                        <span class="nav-main-link-name">API</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-puzzle"></i>
+                                <span class="nav-main-link-name">Multi Level Menu</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="#">
+                                        <span class="nav-main-link-name">Link 1-1</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="#">
+                                        <span class="nav-main-link-name">Link 1-2</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                        <span class="nav-main-link-name">Sub Level 2</span>
+                                    </a>
+                                    <ul class="nav-main-submenu">
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="#">
+                                                <span class="nav-main-link-name">Link 2-1</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link" href="#">
+                                                <span class="nav-main-link-name">Link 2-2</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-main-item">
+                                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                                <span class="nav-main-link-name">Sub Level 3</span>
+                                            </a>
+                                            <ul class="nav-main-submenu">
+                                                <li class="nav-main-item">
+                                                    <a class="nav-main-link" href="#">
+                                                        <span class="nav-main-link-name">Link 3-1</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-main-item">
+                                                    <a class="nav-main-link" href="#">
+                                                        <span class="nav-main-link-name">Link 3-2</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-main-item">
+                                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                                        <span class="nav-main-link-name">Sub Level 4</span>
+                                                    </a>
+                                                    <ul class="nav-main-submenu">
+                                                        <li class="nav-main-item">
+                                                            <a class="nav-main-link" href="#">
+                                                                <span class="nav-main-link-name">Link 4-1</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-main-item">
+                                                            <a class="nav-main-link" href="#">
+                                                                <span class="nav-main-link-name">Link 4-2</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-main-item">
+                                                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                                                <span class="nav-main-link-name">Sub Level 5</span>
+                                                            </a>
+                                                            <ul class="nav-main-submenu">
+                                                                <li class="nav-main-item">
+                                                                    <a class="nav-main-link" href="#">
+                                                                        <span class="nav-main-link-name">Link 5-1</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="nav-main-item">
+                                                                    <a class="nav-main-link" href="#">
+                                                                        <span class="nav-main-link-name">Link 5-2</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="nav-main-item">
+                                                                    <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                                                        <span class="nav-main-link-name">Sub Level 6</span>
+                                                                    </a>
+                                                                    <ul class="nav-main-submenu">
+                                                                        <li class="nav-main-item">
+                                                                            <a class="nav-main-link" href="#">
+                                                                                <span class="nav-main-link-name">Link 6-1</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="nav-main-item">
+                                                                            <a class="nav-main-link" href="#">
+                                                                                <span class="nav-main-link-name">Link 6-2</span>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-heading">Pages</li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-layers"></i>
+                                <span class="nav-main-link-name">Generic</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_blank.html">
+                                        <span class="nav-main-link-name">Blank</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_blank_block.html">
+                                        <span class="nav-main-link-name">Blank (Block)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_search.html">
+                                        <span class="nav-main-link-name">Search</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_profile.html">
+                                        <span class="nav-main-link-name">Profile</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_profile_edit.html">
+                                        <span class="nav-main-link-name">Profile Edit</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_inbox.html">
+                                        <span class="nav-main-link-name">Inbox</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_invoice.html">
+                                        <span class="nav-main-link-name">Invoice</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_faq.html">
+                                        <span class="nav-main-link-name">FAQ</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_team.html">
+                                        <span class="nav-main-link-name">Team</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_contact.html">
+                                        <span class="nav-main-link-name">Contact</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_support.html">
+                                        <span class="nav-main-link-name">Support</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_generic_upgrade_plan.html">
+                                        <span class="nav-main-link-name">Upgrade Plan</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_maintenance.html">
+                                        <span class="nav-main-link-name">Maintenance</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_status.html">
+                                        <span class="nav-main-link-name">Status</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_coming_soon.html">
+                                        <span class="nav-main-link-name">Coming Soon</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-lock"></i>
+                                <span class="nav-main-link-name">Authentication</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_auth_all.html">
+                                        <span class="nav-main-link-name">All</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_auth_signin.html">
+                                        <span class="nav-main-link-name">Sign In</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_auth_signin2.html">
+                                        <span class="nav-main-link-name">Sign In 2</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_auth_signup.html">
+                                        <span class="nav-main-link-name">Sign Up</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_auth_signup2.html">
+                                        <span class="nav-main-link-name">Sign Up 2</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_auth_lock.html">
+                                        <span class="nav-main-link-name">Lock Screen</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_auth_lock2.html">
+                                        <span class="nav-main-link-name">Lock Screen 2</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_auth_reminder.html">
+                                        <span class="nav-main-link-name">Pass Reminder</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_auth_reminder2.html">
+                                        <span class="nav-main-link-name">Pass Reminder 2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-fire"></i>
+                                <span class="nav-main-link-name">Error Pages</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_pages_error_all.html">
+                                        <span class="nav-main-link-name">All</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_error_400.html">
+                                        <span class="nav-main-link-name">400</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_error_401.html">
+                                        <span class="nav-main-link-name">401</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_error_403.html">
+                                        <span class="nav-main-link-name">403</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_error_404.html">
+                                        <span class="nav-main-link-name">404</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_error_500.html">
+                                        <span class="nav-main-link-name">500</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="op_error_503.html">
+                                        <span class="nav-main-link-name">503</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END Side Navigation -->
+            </nav> 
+            <!-- END Sidebar -->
+
+            <!-- Header -->
+            <header id="page-header">
+                <!-- Header Content -->
+                <div class="content-header">
+                    <!-- Left Section -->
+                    <div class="d-flex align-items-center">
+                        <!-- Toggle Sidebar -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout()-->
+                        <button type="button" class="btn btn-sm btn-dual mr-2 d-lg-none" data-toggle="layout" data-action="sidebar_toggle">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+                        <!-- END Toggle Sidebar -->
+
+                        <!-- Toggle Mini Sidebar -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout()-->
+                        <button type="button" class="btn btn-sm btn-dual mr-2 d-none d-lg-inline-block" data-toggle="layout" data-action="sidebar_mini_toggle">
+                            <i class="fa fa-fw fa-ellipsis-v"></i>
+                        </button>
+                        <!-- END Toggle Mini Sidebar -->
+
+                        <!-- Apps Modal -->
+                        <!-- Opens the Apps modal found at the bottom of the page, after footer’s markup -->
+                        <button type="button" class="btn btn-sm btn-dual mr-2" data-toggle="modal" data-target="#one-modal-apps">
+                            <i class="si si-grid"></i>
+                        </button>
+                        <!-- END Apps Modal -->
+
+                        <!-- Open Search Section (visible on smaller screens) -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                        <button type="button" class="btn btn-sm btn-dual d-sm-none" data-toggle="layout" data-action="header_search_on">
+                            <i class="si si-magnifier"></i>
+                        </button>
+                        <!-- END Open Search Section -->
+
+                        <!-- Search Form (visible on larger screens) -->
+                        <form class="d-none d-sm-inline-block" action="be_pages_generic_search.html" method="POST">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control form-control-alt" placeholder="Search.." id="page-header-search-input2" name="page-header-search-input2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-body border-0">
+                                        <i class="si si-magnifier"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- END Search Form -->
+                    </div>
+                    <!-- END Left Section -->
+
+                    <!-- Right Section -->
+                    <div class="d-flex align-items-center">
+                        <!-- User Dropdown -->
+                        <div class="dropdown d-inline-block ml-2">
+                            <button type="button" class="btn btn-sm btn-dual" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded" src="http://q1.qlogo.cn/g?b=qq&nk=1178350505&s=640" alt="Header Avatar" style="width: 18px;">
+                                <span class="d-none d-sm-inline-block ml-1">云海</span>
+                                <i class="fa fa-fw fa-angle-down d-none d-sm-inline-block"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="page-header-user-dropdown">
+                                <div class="p-3 text-center bg-primary">
+                                    <img class="img-avatar img-avatar48 img-avatar-thumb" src="http://q1.qlogo.cn/g?b=qq&nk=1178350505&s=640" alt="">
+                                </div>
+                                <div class="p-2">
+                                    <h5 class="dropdown-header text-uppercase">User Options</h5>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.html">
+                                        <span>Inbox</span>
+                                        <span>
+                                            <span class="badge badge-pill badge-primary">3</span>
+                                            <i class="si si-envelope-open ml-1"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_profile.html">
+                                        <span>Profile</span>
+                                        <span>
+                                            <span class="badge badge-pill badge-success">1</span>
+                                            <i class="si si-user ml-1"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                                        <span>Settings</span>
+                                        <i class="si si-settings"></i>
+                                    </a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <h5 class="dropdown-header text-uppercase">Actions</h5>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="op_auth_lock.html">
+                                        <span>Lock Account</span>
+                                        <i class="si si-lock ml-1"></i>
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="op_auth_signin.html">
+                                        <span>Log Out</span>
+                                        <i class="si si-logout ml-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END User Dropdown -->
+
+                        <!-- Notifications Dropdown -->
+                        <div class="dropdown d-inline-block ml-2">
+                            <button type="button" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="si si-bell"></i>
+                                <span class="badge badge-primary badge-pill">6</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="page-header-notifications-dropdown">
+                                <div class="p-2 bg-primary text-center">
+                                    <h5 class="dropdown-header text-uppercase text-white">Notifications</h5>
+                                </div>
+                                <ul class="nav-items mb-0">
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-check-circle text-success"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">You have a new follower</div>
+                                                <small class="text-muted">15 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-plus-circle text-info"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">1 new sale, keep it up</div>
+                                                <small class="text-muted">22 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-times-circle text-danger"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">Update failed, restart server</div>
+                                                <small class="text-muted">26 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-plus-circle text-info"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">2 new sales, keep it up</div>
+                                                <small class="text-muted">33 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-user-plus text-success"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">You have a new subscriber</div>
+                                                <small class="text-muted">41 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-check-circle text-success"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">You have a new follower</div>
+                                                <small class="text-muted">42 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="p-2 border-top">
+                                    <a class="btn btn-sm btn-light btn-block text-center" href="javascript:void(0)">
+                                        <i class="fa fa-fw fa-arrow-down mr-1"></i> Load More..
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Notifications Dropdown -->
+
+                        <!-- Toggle Side Overlay -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                        <button type="button" class="btn btn-sm btn-dual ml-2" data-toggle="layout" data-action="side_overlay_toggle">
+                            <i class="fa fa-fw fa-list-ul fa-flip-horizontal"></i>
+                        </button>
+                        <!-- END Toggle Side Overlay -->
+                    </div>
+                    <!-- END Right Section -->
+                </div>
+                <!-- END Header Content -->
+
+                <!-- Header Search -->
+                <div id="page-header-search" class="overlay-header bg-white">
+                    <div class="content-header">
+                        <form class="w-100" action="be_pages_generic_search.html" method="POST">
+                            <div class="input-group input-group-sm">
+                                <div class="input-group-prepend">
+                                    <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                                    <button type="button" class="btn btn-danger" data-toggle="layout" data-action="header_search_off">
+                                        <i class="fa fa-fw fa-times-circle"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search or hit ESC.." id="page-header-search-input" name="page-header-search-input">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- END Header Search -->
+
+                <!-- Header Loader -->
+                <!-- Please check out the Loaders page under Components category to see examples of showing/hiding it -->
+                <div id="page-header-loader" class="overlay-header bg-white">
+                    <div class="content-header">
+                        <div class="w-100 text-center">
+                            <i class="fa fa-fw fa-circle-notch fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Header Loader -->
+            </header> 
+
+            <!-- Main Container -->
+            <main id="main-container">
+                <!-- Page Content -->
+                <div class="content">
+                    <!-- Quick Overview + Actions -->
+                    <div class="row">
+                        <div class="col-6 col-lg-4">
+                            <a class="block block-link-shadow text-center" href="be_pages_ecom_orders.html">
+                                <div class="block-content block-content-full">
+                                    <div class="font-size-h2 text-dark">250</div>
+                                </div>
+                                <div class="block-content py-2 bg-body-light">
+                                    <p class="font-w600 font-size-sm text-muted mb-0">
+                                        Pending
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <a class="block block-link-shadow text-center" href="javascript:void(0)">
+                                <div class="block-content block-content-full">
+                                    <div class="font-size-h2 text-dark">29</div>
+                                </div>
+                                <div class="block-content py-2 bg-body-light">
+                                    <p class="font-w600 font-size-sm text-muted mb-0">
+                                        Available
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a class="block block-link-shadow text-center" href="be_pages_ecom_product_edit.html">
+                                <div class="block-content block-content-full">
+                                    <div class="font-size-h2 text-danger">
+                                        <i class="fa fa-times"></i>
+                                    </div>
+                                </div>
+                                <div class="block-content py-2 bg-body-light">
+                                    <p class="font-w600 font-size-sm text-danger mb-0">
+                                        Remove Product
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END Quick Overview + Actions -->
+
+                    <!-- Info -->
+                    <div class="block">
+                        <div class="block-header block-header-default">
+                            <h3 class="block-title">Info</h3>
+                        </div>
+                        <div class="block-content">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 col-lg-8">
+                                    <form action="be_pages_ecom_product_edit.html" method="POST" onsubmit="return false;">
+                                        <div class="form-group">
+                                            <label for="one-ecom-product-id">PID</label>
+                                            <input type="text" class="form-control" id="one-ecom-product-id" name="one-ecom-product-id" value="789" readonly>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="one-ecom-product-name">Name</label>
+                                            <input type="text" class="form-control" id="one-ecom-product-name" name="one-ecom-product-name" value="Dark Souls III">
+                                        </div>
+                                        <div class="form-group">
+                                            <!-- CKEditor (js-ckeditor-inline + js-ckeditor ids are initialized in Helpers.ckeditor()) -->
+                                            <!-- For more info and examples you can check out http://ckeditor.com -->
+                                            <label>Description</label>
+                                            <textarea id="js-ckeditor" name="one-ecom-product-description"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="one-ecom-product-description-short">Short Description</label>
+                                            <textarea class="form-control" id="one-ecom-product-description-short" name="one-ecom-product-description-short" rows="4"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <!-- Select2 (.js-select2 class is initialized in Helpers.select2()) -->
+                                            <!-- For more info and examples you can check out https://github.com/select2/select2 -->
+                                            <label for="one-ecom-product-category">Category</label>
+                                            <select class="js-select2 form-control" id="one-ecom-product-category" name="one-ecom-product-category" style="width: 100%;" data-placeholder="Choose one..">
+                                                <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
+                                                <option value="1">Cables</option>
+                                                <option value="2" selected>Video Games</option>
+                                                <option value="3">Tablets</option>
+                                                <option value="4">Laptops</option>
+                                                <option value="5">PC</option>
+                                                <option value="6">Home Cinema</option>
+                                                <option value="7">Sound</option>
+                                                <option value="8">Office</option>
+                                                <option value="9">Adapters</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-md-6">
+                                                <label for="one-ecom-product-price">Price in USD ($)</label>
+                                                <input type="text" class="form-control" id="one-ecom-product-price" name="one-ecom-product-price" value="59,00">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-md-6">
+                                                <label for="one-ecom-product-stock">Stock</label>
+                                                <input type="text" class="form-control" id="one-ecom-product-stock" name="one-ecom-product-stock" value="29">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="d-block">Condition</label>
+                                            <div class="custom-control custom-radio custom-control-inline mb-1">
+                                                <input type="radio" class="custom-control-input" id="one-ecom-product-condition-new" name="one-ecom-product-condition" checked>
+                                                <label class="custom-control-label" for="one-ecom-product-condition-new">New</label>
+                                            </div>
+                                            <div class="custom-control custom-radio custom-control-inline mb-1">
+                                                <input type="radio" class="custom-control-input" id="one-ecom-product-condition-old" name="one-ecom-product-condition">
+                                                <label class="custom-control-label" for="one-ecom-product-condition-old">Old</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Published?</label>
+                                            <div class="custom-control custom-switch mb-1">
+                                                <input type="checkbox" class="custom-control-input" id="one-ecom-product-published" name="one-ecom-product-published" checked>
+                                                <label class="custom-control-label" for="one-ecom-product-published"></label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-alt-success">Update</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Info -->
+
+                    <!-- Meta Data -->
+                    <div class="block">
+                        <div class="block-header block-header-default">
+                            <h3 class="block-title">Meta Data</h3>
+                        </div>
+                        <div class="block-content">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 col-lg-8">
+                                    <form action="be_pages_ecom_product_edit.html" method="POST" onsubmit="return false;">
+                                        <div class="form-group">
+                                            <!-- Bootstrap Maxlength (.js-maxlength class is initialized in Helpers.maxlength()) -->
+                                            <!-- For more info and examples you can check out https://github.com/mimo84/bootstrap-maxlength -->
+                                            <label for="one-ecom-product-meta-title">Title</label>
+                                            <input type="text" class="js-maxlength form-control" id="one-ecom-product-meta-title" name="one-ecom-product-meta-title" value="Dark Souls III" maxlength="55" data-always-show="true" data-placement="top">
+                                            <small class="form-text text-muted">
+                                                55 Character Max
+                                            </small>
+                                        </div>
+                                        <div class="form-group">
+                                            <!-- Select2 (.js-select2 class is initialized in Helpers.select2()) -->
+                                            <!-- For more info and examples you can check out https://github.com/select2/select2 -->
+                                            <label for="one-ecom-product-meta-keywords">Keywords</label>
+                                            <select class="js-select2 form-control" id="one-ecom-product-meta-keywords" name="one-ecom-product-meta-keywords" style="width: 100%;" data-placeholder="Choose many.." multiple>
+                                                <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
+                                                <option value="1" selected>Action</option>
+                                                <option value="2" selected>RPG</option>
+                                                <option value="3">Racing</option>
+                                                <option value="4">Strategy</option>
+                                                <option value="5">Adventure</option>
+                                                <option value="6">Strategy</option>
+                                                <option value="7">Puzzle</option>
+                                                <option value="8">Horror</option>
+                                                <option value="9">MMO</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <!-- Bootstrap Maxlength (.js-maxlength class is initialized in Helpers.maxlength()) -->
+                                            <!-- For more info and examples you can check out https://github.com/mimo84/bootstrap-maxlength -->
+                                            <label for="one-ecom-product-meta-description">Description</label>
+                                            <textarea class="js-maxlength form-control" id="one-ecom-product-meta-description" name="one-ecom-product-meta-description" rows="4" maxlength="115" data-always-show="true" data-placement="top">Dark Souls III is an action role-playing video game developed by FromSoftware.</textarea>
+                                            <small class="form-text text-muted">
+                                                115 Character Max
+                                            </small>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-alt-success">Update</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Meta Data -->
+
+                    <!-- Media -->
+                    <div class="block">
+                        <div class="block-header block-header-default">
+                            <h3 class="block-title">Media</h3>
+                        </div>
+                        <div class="block-content block-content-full">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 col-lg-8">
+                                    <!-- Dropzone (functionality is auto initialized by the plugin itself in js/plugins/dropzone/dropzone.min.js) -->
+                                    <!-- For more info and examples you can check out http://www.dropzonejs.com/#usage -->
+                                    <form class="dropzone" action="be_pages_ecom_product_edit.html"></form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Media -->
+                </div>
+                <!-- END Page Content -->
+            </main>
+            <!-- END Main Container -->
+
+            <!-- Footer -->
+            <footer id="page-footer" class="bg-body-light">
+                <div class="content py-3">
+                    <div class="row font-size-sm">
+                        <div class="col-sm-6 order-sm-2 py-1 text-center text-sm-right">
+                            Crafted with <i class="fa fa-heart text-danger"></i> by <a class="font-w600" href="https://1.envato.market/ydb" target="_blank">pixelcave</a>
+                        </div>
+                        <div class="col-sm-6 order-sm-1 py-1 text-center text-sm-left">
+                            <a class="font-w600" href="https://1.envato.market/AVD6j" target="_blank">OneUI 4.6</a> &copy; <span data-toggle="year-copy"></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- END Footer -->
+
+            <!-- Apps Modal -->
+            <!-- Opens from the modal toggle button in the header -->
+            <div class="modal fade" id="one-modal-apps" tabindex="-1" role="dialog" aria-labelledby="one-modal-apps" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-top modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="block block-themed block-transparent mb-0">
+                            <div class="block-header bg-primary-dark">
+                                <h3 class="block-title">Apps</h3>
+                                <div class="block-options">
+                                    <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                                        <i class="si si-close"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="block-content block-content-full">
+                                <div class="row gutters-tiny">
+                                    <div class="col-6">
+                                        <!-- CRM -->
+                                        <a class="block block-rounded block-themed bg-default" href="javascript:void(0)">
+                                            <div class="block-content text-center">
+                                                <i class="si si-speedometer fa-2x text-white-75"></i>
+                                                <p class="font-w600 font-size-sm text-white mt-2 mb-3">
+                                                    CRM
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <!-- END CRM -->
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Products -->
+                                        <a class="block block-rounded block-themed bg-danger" href="javascript:void(0)">
+                                            <div class="block-content text-center">
+                                                <i class="si si-rocket fa-2x text-white-75"></i>
+                                                <p class="font-w600 font-size-sm text-white mt-2 mb-3">
+                                                    Products
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <!-- END Products -->
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Sales -->
+                                        <a class="block block-rounded block-themed bg-success mb-0" href="javascript:void(0)">
+                                            <div class="block-content text-center">
+                                                <i class="si si-plane fa-2x text-white-75"></i>
+                                                <p class="font-w600 font-size-sm text-white mt-2 mb-3">
+                                                    Sales
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <!-- END Sales -->
+                                    </div>
+                                    <div class="col-6">
+                                        <!-- Payments -->
+                                        <a class="block block-rounded block-themed bg-warning mb-0" href="javascript:void(0)">
+                                            <div class="block-content text-center">
+                                                <i class="si si-wallet fa-2x text-white-75"></i>
+                                                <p class="font-w600 font-size-sm text-white mt-2 mb-3">
+                                                    Payments
+                                                </p>
+                                            </div>
+                                        </a>
+                                        <!-- END Payments -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Apps Modal -->
+        </div>
+       
+        <script src="/static/adassets/js/oneui.core.min.js"></script>
+
+        <script src="/static/adassets/js/oneui.app.min.js"></script>
+
+        <script src="/static/adassets/js/plugins/chart.js/Chart.bundle.min.js"></script>
+
+        <script src="/static/adassets/js/pages/be_pages_dashboard.min.js"></script>
+        <script type="text/javascript">
+            
+        </script> 
+
+        <!-- Page JS Helpers (Select2 + CKEditor plugins) -->
+        <script>jQuery(function(){ One.helpers(['select2', 'maxlength', 'ckeditor']); });</script>
+    </body>
+</html>

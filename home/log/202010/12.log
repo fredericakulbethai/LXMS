@@ -1,0 +1,55 @@
+[2020-10-12T20:40:45+08:00][sql] CONNECT:[ UseTime:0.002203s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T20:40:45+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001886s ]
+[2020-10-12T20:40:45+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[2020-10-12T21:16:40+08:00][sql] CONNECT:[ UseTime:0.001875s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:16:40+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001046s ]
+[2020-10-12T21:16:40+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000318s ]
+[2020-10-12T21:16:40+08:00][error] [0]模板文件不存在:default/index/index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:17:02+08:00][sql] CONNECT:[ UseTime:0.001458s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:17:02+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001110s ]
+[2020-10-12T21:17:02+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000592s ]
+[2020-10-12T21:17:02+08:00][error] [0]模板文件不存在:/view/default/index/index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:17:26+08:00][sql] CONNECT:[ UseTime:0.001667s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:17:26+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001122s ]
+[2020-10-12T21:17:26+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000473s ]
+[2020-10-12T21:17:26+08:00][error] [0]模板文件不存在:/view/home/default/index/index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:17:50+08:00][sql] CONNECT:[ UseTime:0.001703s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:17:50+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001112s ]
+[2020-10-12T21:17:50+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[2020-10-12T21:17:50+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\view\home\default\.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:18:11+08:00][sql] CONNECT:[ UseTime:0.001304s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:18:11+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.010522s ]
+[2020-10-12T21:18:11+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000346s ]
+[2020-10-12T21:18:11+08:00][error] [0]模板文件不存在:/view/home/default/index/index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:18:29+08:00][sql] CONNECT:[ UseTime:0.001445s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:18:29+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.011813s ]
+[2020-10-12T21:18:29+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000385s ]
+[2020-10-12T21:18:29+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\index\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:18:49+08:00][sql] CONNECT:[ UseTime:0.001648s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:18:49+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001132s ]
+[2020-10-12T21:18:49+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000320s ]
+[2020-10-12T21:18:49+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\index\default.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:19:06+08:00][sql] CONNECT:[ UseTime:0.001395s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:19:06+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001020s ]
+[2020-10-12T21:19:06+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000384s ]
+[2020-10-12T21:19:06+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\default\.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:19:12+08:00][sql] CONNECT:[ UseTime:0.001335s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:19:12+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001116s ]
+[2020-10-12T21:19:12+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000369s ]
+[2020-10-12T21:19:12+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\default\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:20:23+08:00][sql] CONNECT:[ UseTime:0.009814s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:20:23+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001390s ]
+[2020-10-12T21:20:23+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000368s ]
+[2020-10-12T21:20:23+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\default\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:20:27+08:00][sql] CONNECT:[ UseTime:0.001299s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:20:27+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000947s ]
+[2020-10-12T21:20:27+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000348s ]
+[2020-10-12T21:20:27+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\default\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:20:42+08:00][sql] CONNECT:[ UseTime:0.001484s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:20:42+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001011s ]
+[2020-10-12T21:20:42+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[2020-10-12T21:20:42+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\index\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-12T21:21:00+08:00][sql] CONNECT:[ UseTime:0.001509s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-12T21:21:00+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001317s ]
+[2020-10-12T21:21:00+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000287s ]
+[2020-10-12T21:21:00+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\default\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]

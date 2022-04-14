@@ -1,0 +1,149 @@
+[2020-10-15T20:37:41+08:00][sql] CONNECT:[ UseTime:0.016242s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:37:41+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.037868s ]
+[2020-10-15T20:37:41+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004016s ]
+[2020-10-15T20:37:41+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\default\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-15T20:38:03+08:00][sql] CONNECT:[ UseTime:0.001887s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:38:03+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001592s ]
+[2020-10-15T20:38:03+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000341s ]
+[2020-10-15T20:38:03+08:00][error] [0]模板文件不存在:D:\phpstudy_pro\WWW\tp6\view\home\index\index.html[D:\phpstudy_pro\WWW\tp6\vendor\topthink\think-view\src\Think.php:146]
+[2020-10-15T20:38:46+08:00][sql] CONNECT:[ UseTime:0.001528s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:38:46+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001709s ]
+[2020-10-15T20:38:46+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000462s ]
+[2020-10-15T20:38:46+08:00][error] [8]未定义变量: name[D:\phpstudy_pro\WWW\tp6\runtime\home\temp\e6632bc4f3f5b9c5703e1ca8e34025de.php:8]
+[2020-10-15T20:39:26+08:00][sql] CONNECT:[ UseTime:0.001346s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:39:26+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001262s ]
+[2020-10-15T20:39:26+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000305s ]
+[2020-10-15T20:39:26+08:00][error] [0]Class 'app\home\controller\view' not found[D:\phpstudy_pro\WWW\tp6\app\home\controller\index.php:15]
+[2020-10-15T20:39:50+08:00][sql] CONNECT:[ UseTime:0.001308s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:39:50+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001196s ]
+[2020-10-15T20:39:50+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[2020-10-15T20:39:50+08:00][error] [0]Class 'app\facade\view' not found[D:\phpstudy_pro\WWW\tp6\app\home\controller\index.php:16]
+[2020-10-15T20:40:00+08:00][sql] CONNECT:[ UseTime:0.001344s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:40:00+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001537s ]
+[2020-10-15T20:40:00+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000329s ]
+[2020-10-15T20:41:00+08:00][sql] CONNECT:[ UseTime:0.001730s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:41:00+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001250s ]
+[2020-10-15T20:41:00+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+[2020-10-15T20:43:04+08:00][sql] CONNECT:[ UseTime:0.002441s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:43:04+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001202s ]
+[2020-10-15T20:43:04+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000295s ]
+[2020-10-15T20:43:59+08:00][sql] CONNECT:[ UseTime:0.001420s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:43:59+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001364s ]
+[2020-10-15T20:43:59+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000309s ]
+[2020-10-15T20:44:33+08:00][sql] CONNECT:[ UseTime:0.001560s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:44:33+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001498s ]
+[2020-10-15T20:44:33+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000319s ]
+[2020-10-15T20:45:16+08:00][sql] CONNECT:[ UseTime:0.001752s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:45:16+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001597s ]
+[2020-10-15T20:45:16+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000315s ]
+[2020-10-15T20:45:29+08:00][sql] CONNECT:[ UseTime:0.001292s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:45:29+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001224s ]
+[2020-10-15T20:45:29+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000308s ]
+[2020-10-15T20:46:10+08:00][sql] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:46:10+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001402s ]
+[2020-10-15T20:46:10+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000310s ]
+[2020-10-15T20:46:22+08:00][sql] CONNECT:[ UseTime:0.001441s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:46:22+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001421s ]
+[2020-10-15T20:46:22+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000321s ]
+[2020-10-15T20:46:29+08:00][sql] CONNECT:[ UseTime:0.001561s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:46:29+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001500s ]
+[2020-10-15T20:46:29+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000340s ]
+[2020-10-15T20:46:36+08:00][sql] CONNECT:[ UseTime:0.001460s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:46:36+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.002303s ]
+[2020-10-15T20:46:36+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000414s ]
+[2020-10-15T20:46:42+08:00][sql] CONNECT:[ UseTime:0.001400s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:46:42+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000968s ]
+[2020-10-15T20:46:42+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000307s ]
+[2020-10-15T20:47:47+08:00][sql] CONNECT:[ UseTime:0.002363s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:47:47+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000958s ]
+[2020-10-15T20:47:47+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[2020-10-15T20:48:10+08:00][sql] CONNECT:[ UseTime:0.001400s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:48:10+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001635s ]
+[2020-10-15T20:48:10+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000319s ]
+[2020-10-15T20:48:23+08:00][sql] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:48:23+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001155s ]
+[2020-10-15T20:48:23+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[2020-10-15T20:48:34+08:00][sql] CONNECT:[ UseTime:0.001249s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:48:34+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000842s ]
+[2020-10-15T20:48:34+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000247s ]
+[2020-10-15T20:49:35+08:00][sql] CONNECT:[ UseTime:0.001448s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:49:35+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001397s ]
+[2020-10-15T20:49:35+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000501s ]
+[2020-10-15T20:50:34+08:00][sql] CONNECT:[ UseTime:0.001363s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:50:34+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001121s ]
+[2020-10-15T20:50:34+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000366s ]
+[2020-10-15T20:50:59+08:00][sql] CONNECT:[ UseTime:0.001379s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:50:59+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001492s ]
+[2020-10-15T20:50:59+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000525s ]
+[2020-10-15T20:51:57+08:00][sql] CONNECT:[ UseTime:0.001998s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:51:57+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001092s ]
+[2020-10-15T20:51:57+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000364s ]
+[2020-10-15T20:52:49+08:00][sql] CONNECT:[ UseTime:0.001418s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:52:49+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000943s ]
+[2020-10-15T20:52:49+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000289s ]
+[2020-10-15T20:54:20+08:00][sql] CONNECT:[ UseTime:0.001714s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:54:20+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001159s ]
+[2020-10-15T20:54:20+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000328s ]
+[2020-10-15T20:55:50+08:00][sql] CONNECT:[ UseTime:0.001452s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:55:50+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000924s ]
+[2020-10-15T20:55:50+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[2020-10-15T20:55:54+08:00][sql] CONNECT:[ UseTime:0.001591s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:55:54+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001070s ]
+[2020-10-15T20:55:54+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000730s ]
+[2020-10-15T20:57:28+08:00][sql] CONNECT:[ UseTime:0.001402s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:57:28+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000857s ]
+[2020-10-15T20:57:28+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000252s ]
+[2020-10-15T20:57:54+08:00][sql] CONNECT:[ UseTime:0.001780s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:57:54+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000980s ]
+[2020-10-15T20:57:54+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000412s ]
+[2020-10-15T20:58:17+08:00][sql] CONNECT:[ UseTime:0.001613s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:58:17+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001174s ]
+[2020-10-15T20:58:17+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000301s ]
+[2020-10-15T20:58:48+08:00][sql] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:58:48+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000872s ]
+[2020-10-15T20:58:48+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000302s ]
+[2020-10-15T20:59:26+08:00][sql] CONNECT:[ UseTime:0.001343s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T20:59:26+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001136s ]
+[2020-10-15T20:59:26+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000435s ]
+[2020-10-15T21:00:02+08:00][sql] CONNECT:[ UseTime:0.001301s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:00:02+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000820s ]
+[2020-10-15T21:00:02+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000378s ]
+[2020-10-15T21:00:52+08:00][sql] CONNECT:[ UseTime:0.009684s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:00:52+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000902s ]
+[2020-10-15T21:00:52+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000251s ]
+[2020-10-15T21:01:21+08:00][sql] CONNECT:[ UseTime:0.001360s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:01:21+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000858s ]
+[2020-10-15T21:01:21+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[2020-10-15T21:02:36+08:00][sql] CONNECT:[ UseTime:0.010385s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:02:36+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001067s ]
+[2020-10-15T21:02:36+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000307s ]
+[2020-10-15T21:03:32+08:00][sql] CONNECT:[ UseTime:0.001423s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:03:32+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001079s ]
+[2020-10-15T21:03:32+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000332s ]
+[2020-10-15T21:05:09+08:00][sql] CONNECT:[ UseTime:0.001414s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:05:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001091s ]
+[2020-10-15T21:05:09+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000292s ]
+[2020-10-15T21:05:25+08:00][sql] CONNECT:[ UseTime:0.001627s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:05:25+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001073s ]
+[2020-10-15T21:05:25+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000350s ]
+[2020-10-15T21:07:07+08:00][sql] CONNECT:[ UseTime:0.001440s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:07:07+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001071s ]
+[2020-10-15T21:07:07+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[2020-10-15T21:19:09+08:00][sql] CONNECT:[ UseTime:0.001443s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:19:09+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001177s ]
+[2020-10-15T21:19:09+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000313s ]
+[2020-10-15T21:21:15+08:00][sql] CONNECT:[ UseTime:0.001884s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:21:15+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001195s ]
+[2020-10-15T21:21:15+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000368s ]
+[2020-10-15T21:21:32+08:00][sql] CONNECT:[ UseTime:0.001698s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:21:32+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001066s ]
+[2020-10-15T21:21:32+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000297s ]
+[2020-10-15T21:22:04+08:00][sql] CONNECT:[ UseTime:0.001788s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:22:04+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001144s ]
+[2020-10-15T21:22:04+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000373s ]
+[2020-10-15T21:23:30+08:00][sql] CONNECT:[ UseTime:0.001680s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:23:30+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.001152s ]
+[2020-10-15T21:23:30+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000367s ]
+[2020-10-15T21:24:37+08:00][sql] CONNECT:[ UseTime:0.001468s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-10-15T21:24:37+08:00][sql] SHOW FULL COLUMNS FROM `yh_webpz` [ RunTime:0.000941s ]
+[2020-10-15T21:24:37+08:00][sql] SELECT * FROM `yh_webpz` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000396s ]

@@ -1,0 +1,5 @@
+[2020-11-10T00:00:01+08:00][sql] CONNECT:[ UseTime:0.004365s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-11-10T00:00:01+08:00][sql] SHOW FULL COLUMNS FROM `yh_business` [ RunTime:0.004413s ]
+[2020-11-10T00:00:01+08:00][sql] UPDATE `yh_business`  SET `calltoday` = 0  WHERE  `id` <> 0 [ RunTime:0.048995s ]
+[2020-11-10T00:00:01+08:00][sql] CONNECT:[ UseTime:0.001006s ] mysql:host=127.0.0.1;port=3306;dbname=jifei;charset=utf8
+[2020-11-10T00:00:01+08:00][sql] truncate table yh_record [ RunTime:0.110272s ]
